@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "Time Stamp";
+    src: url(fonts/timestamp.otf);
+}
+@font-face {
+    font-family: "GUY1976";
+    src: url(fonts/GUY1976.otf);
+}
+@font-face {
+    font-family: "WombScript-Regular";
+    src: url(fonts/WombScript-Regular.otf);
+}
+@font-face {
+    font-family: "Orchard-Linear";
+    src: url(fonts/Orchard-Linear.otf);
+}
+
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: -0.1px;
+	text-align: left;
+	color: #000;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+div {
+	width: 100%;
+	float: left;
+}
+
+.description {
+	width: 100%;
+}
+
+.title {
+	width: 30%;
+	float: left;
+	margin-right: 2%;
+}
+.text {
+	width: 30%;
+	float: left;
+	margin-right: 2%;
+}
+.third {
+	width: 30%;
+	float: left;
+}
+
+#container {
+	width: 1000px;
+	margin: 25px auto;
+	float: none;
+	clear: both;
+}
+
+
+
+
+/* STYLE --------------- */
+
+
+.footnotes {
+	font-family: Helvetica;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: bold;
+	letter-spacing: normal;
+}
+
+
+span.spacer {
+   padding:0 12px;
+}
+
+hr { 
+	width: 100%;
+	display: block;
+    border: 20px solid #25f961;
+    border-style: none none solid; 
+    color: #fff; 
+    background-color: #fff; 
+    margin: 25px 0 1.5em 0; 
+    padding: 0;
+    float: left;
+    clear: both;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+    
+img {
+	max-width: 100%;
+	max-height: 700px;
+	padding: 0;
+	display: block;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    float: left;
+	border-style: none;
+	text-decoration: none;
+}
+
+img.shadow {
+	border: 1px solid #ccc;
+   padding: 0;
+}
+
+::selection { background: #25f961; color: #000; text-shadow: none; /* Safari */ }
+::-moz-selection { background: #25f961; color: #000; text-shadow: none; /* Firefox */ }
+
+
+
+
+/* LINKS --------------- */
+
+a:link {
+	text-decoration:underline;
+	color: #000;
+}
+
+a:visited {
+	text-decoration:underline;
+	color: #000;
+}
+
+a:hover{
+	text-decoration:none;
+	color: #000;
+}
+
+a:active {
+	text-decoration:none;
+	color: #000;
+}
+
+
+
+/* RESPONSIVE ----------------------------- */
+
+@media screen and (max-width:900px){
+
+	#container {
+		width: 98%;
+	}
+
+}
+
+@media screen and (max-width:680px){
+	
+	body {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	
+	#container {
+		margin: 2% 2%;
+		width: 96%;
+	}
+	
+	img {
+		max-width: 100% !important;
+	}
+	
+	.title {
+		width: 100%;
+		float: left;
+	}
+	
+	.text {
+		width: 100%;
+		float: left;
+	}
+
+	.third {
+		width: 100%;
+		float: left;
+	}
+
+}
+
