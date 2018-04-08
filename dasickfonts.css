@@ -1,71 +1,71 @@
 @font-face {
     font-family: "ArtistFont";
-    src: url(dasickfonts/Artist-Font/Artist-Font.otf);
+    src: url(dsf/Artist-Font.otf);
 }
 
 @font-face {
     font-family: "Blocks";
-    src: url(dasickfonts/BLOCKS-ON-BLOCKS/BLOCKS-ONBLOCKS.otf);
+    src: url(dsf/BLOCKS-ONBLOCKS.otf);
 }
 
 @font-face {
     font-family: "BoldGod";
-    src: url(dasickfonts/BOLd-GOd-dISPLAY/BOLdGOd-dISPLAY.otf);
+    src: url(dsf/BOLdGOd-dISPLAY.otf);
 }
 
 @font-face {
     font-family: "GUY";
-    src: url(dasickfonts/GUY1976/GUY1976-ONE.otf);
+    src: url(dsf/GUY1976-ONE.otf);
 }
 
 @font-face {
     font-family: "MudClub";
-    src: url(dasickfonts/Mud-Club/MudClub-FranklintheGoth.otf);
+    src: url(dsf/MudClub-FranklintheGoth.otf);
 }
 
 @font-face {
     font-family: "Orchard";
-    src: url(dasickfonts/Orchard/Orchard-Linear.otf);
+    src: url(dsf/Orchard-Linear.otf);
 }
 
 @font-face {
     font-family: "Pringip";
-    src: url(dasickfonts/Pringip-Signage/Pringip-Signage.otf);
+    src: url(dsf/Pringip-Signage.otf);
 }
 
 @font-face {
     font-family: "Scribble";
-    src: url(dasickfonts/Scribble-Fill/Scribble-Fill.otf);
+    src: url(dsf/Scribble-Fill.otf);
 }
 
 @font-face {
     font-family: "Slash";
-    src: url(dasickfonts/Slash-Standard/Slash-Standard.otf);
+    src: url(dsf/Slash-Standard.otf);
 }
 
 @font-face {
     font-family: "SlowScript";
-    src: url(dasickfonts/Slow-Script/SlowScript-One.otf);
+    src: url(dsf/SlowScript-One.otf);
 }
 
 @font-face {
     font-family: "TimeStamp";
-    src: url(dasickfonts/Time-Stamp/TimeStamp-Standard.otf);
+    src: url(dsf/TimeStamp-Standard.otf);
 }
 
 @font-face {
     font-family: "Womb1";
-    src: url(dasickfonts/Womb-Script/WombScript-Linear.otf);
+    src: url(dsf/WombScript-Linear.otf);
 }
 
 @font-face {
     font-family: "Womb2";
-    src: url(dasickfonts/Womb-Script/WombScript-Regular.otf);
+    src: url(dsf/WombScript-Regular.otf);
 }
 
 @font-face {
     font-family: "Wreckage";
-    src: url(dasickfonts/Wreckage-Grotesque/Wreckage-GrotesqueOne.otf);
+    src: url(dsf/Wreckage-GrotesqueOne.otf);
 }
 
 
