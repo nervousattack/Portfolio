@@ -1,71 +1,71 @@
 @font-face {
     font-family: "ArtistFont";
-    src: url(dsf/Artist-Font.otf);
+    src: url(fonts/dsf/Artist-Font.otf);
 }
 
 @font-face {
     font-family: "Blocks";
-    src: url(dsf/BLOCKS-ONBLOCKS.otf);
+    src: url(fonts/dsf/BLOCKS-ONBLOCKS.otf);
 }
 
 @font-face {
     font-family: "BoldGod";
-    src: url(dsf/BOLdGOd-dISPLAY.otf);
+    src: url(fonts/dsf/BOLdGOd-dISPLAY.otf);
 }
 
 @font-face {
     font-family: "GUY";
-    src: url(dsf/GUY1976-ONE.otf);
+    src: url(fonts/dsf/GUY1976-ONE.otf);
 }
 
 @font-face {
     font-family: "MudClub";
-    src: url(dsf/MudClub-FranklintheGoth.otf);
+    src: url(fonts/dsf/MudClub-FranklintheGoth.otf);
 }
 
 @font-face {
     font-family: "Orchard";
-    src: url(dsf/Orchard-Linear.otf);
+    src: url(fonts/dsf/Orchard-Linear.otf);
 }
 
 @font-face {
     font-family: "Pringip";
-    src: url(dsf/Pringip-Signage.otf);
+    src: url(fonts/dsf/Pringip-Signage.otf);
 }
 
 @font-face {
     font-family: "Scribble";
-    src: url(dsf/Scribble-Fill.otf);
+    src: url(fonts/dsf/Scribble-Fill.otf);
 }
 
 @font-face {
     font-family: "Slash";
-    src: url(dsf/Slash-Standard.otf);
+    src: url(fonts/dsf/Slash-Standard.otf);
 }
 
 @font-face {
     font-family: "SlowScript";
-    src: url(dsf/SlowScript-One.otf);
+    src: url(fonts/dsf/SlowScript-One.otf);
 }
 
 @font-face {
     font-family: "TimeStamp";
-    src: url(dsf/TimeStamp-Standard.otf);
+    src: url(fonts/dsf/TimeStamp-Standard.otf);
 }
 
 @font-face {
     font-family: "Womb1";
-    src: url(dsf/WombScript-Linear.otf);
+    src: url(fonts/dsf/WombScript-Linear.otf);
 }
 
 @font-face {
     font-family: "Womb2";
-    src: url(dsf/WombScript-Regular.otf);
+    src: url(fonts/dsf/WombScript-Regular.otf);
 }
 
 @font-face {
     font-family: "Wreckage";
-    src: url(dsf/Wreckage-GrotesqueOne.otf);
+    src: url(fonts/dsf/Wreckage-GrotesqueOne.otf);
 }
 
 
