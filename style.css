@@ -1,26 +1,8 @@
-@font-face {
-    font-family: "Time Stamp";
-    src: url(fonts/timestamp.otf);
-}
-@font-face {
-    font-family: "GUY1976";
-    src: url(fonts/GUY1976.otf);
-}
-@font-face {
-    font-family: "WombScript-Regular";
-    src: url(fonts/WombScript-Regular.otf);
-}
-@font-face {
-    font-family: "Orchard-Linear";
-    src: url(fonts/Orchard-Linear.otf);
-}
-
-
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	font-size: 14px;
-	line-height: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
 	letter-spacing: -0.1px;
 	text-align: left;
 	color: #000;
@@ -76,17 +58,17 @@ div {
 
 
 span.spacer {
-   padding:0 12px;
+   padding:0 30px;
 }
 
 hr { 
 	width: 100%;
 	display: block;
-    border: 20px solid #25f961;
+    border: 10px solid #25f961;
     border-style: none none solid; 
     color: #fff; 
     background-color: #fff; 
-    margin: 25px 0 1.5em 0; 
+    margin: 10px 0 1.5em 0; 
     padding: 0;
     float: left;
     clear: both;
@@ -127,23 +109,22 @@ img.imagethirds {
 /* LINKS --------------- */
 
 a:link {
-	text-decoration:underline;
-	color: #000;
+	text-decoration:none;
+	color: #f2007d;
 }
 
 a:visited {
-	text-decoration:underline;
-	color: #000;
+	text-decoration:none;
+	color: #f2007d;
 }
 
 a:hover{
-	text-decoration:underline;
+	text-decoration:none;
 	color: #000;
-	background: #25f961;
 }
 
 a:active {
-	text-decoration:underline;
+	text-decoration:none;
 	color: #000;
 }
 
