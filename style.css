@@ -1,3 +1,12 @@
+html {
+	background: url(images/clouds.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: normal;
@@ -5,8 +14,7 @@ body {
 	line-height: 23px;
 	letter-spacing: -0.1px;
 	text-align: left;
-	color: #000;
-	background-color: #fff;
+	color: bisque;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -18,21 +26,6 @@ div {
 
 .description {
 	width: 100%;
-}
-
-.title {
-	width: 30%;
-	float: left;
-	margin-right: 2%;
-}
-.text {
-	width: 30%;
-	float: left;
-	margin-right: 2%;
-}
-.third {
-	width: 30%;
-	float: left;
 }
 
 #container {
@@ -47,6 +40,10 @@ div {
 
 /* STYLE --------------- */
 
+.titles {
+	font-family:'Gloria Hallelujah'; 
+	text-transform: uppercase;
+}
 
 .footnotes {
 	font-family: Helvetica;
@@ -64,7 +61,7 @@ span.spacer {
 hr { 
 	width: 100%;
 	display: block;
-    border: 5px solid #25f961;
+    border: 5px solid white;
     border-style: none none solid; 
     color: #fff; 
     background-color: #fff; 
@@ -100,8 +97,8 @@ img.imagethirds {
     margin-right:2%;
 }
 
-::selection { background: #25f961; color: #000; text-shadow: none; /* Safari */ }
-::-moz-selection { background: #25f961; color: #000; text-shadow: none; /* Firefox */ }
+::selection { background: #fff; color: #000; text-shadow: none; /* Safari */ }
+::-moz-selection { background: #fff; color: #000; text-shadow: none; /* Firefox */ }
 
 
 
@@ -111,25 +108,26 @@ img.imagethirds {
 a:link {
 	font-weight: bold;
 	text-decoration:none;
-	color: #000;
+	color: bisque;
 }
 
 a:visited {
 	font-weight: bold;
 	text-decoration:none;
-	color: #000;
+	color: bisque;
 }
 
 a:hover{
 	font-weight: bold;
 	text-decoration:none;
-	color: #25f961;
+	color: #fff;
+	text-shadow: 0px 0px 10px white;
 }
 
 a:active {
 	font-weight: bold;
 	text-decoration:none;
-	color: #000;
+	color: bisque;
 }
 
 
@@ -165,20 +163,6 @@ a:active {
 		max-width: 100% !important;
 	}
 	
-	.title {
-		width: 100%;
-		float: left;
-	}
-	
-	.text {
-		width: 100%;
-		float: left;
-	}
-
-	.third {
-		width: 100%;
-		float: left;
-	}
 
 	img.imagethirds {
 	width:100%;
