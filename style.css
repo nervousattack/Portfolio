@@ -14,7 +14,7 @@ body {
 	line-height: 23px;
 	letter-spacing: -0.1px;
 	text-align: left;
-	color: bisque;
+	color: white;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -108,13 +108,13 @@ img.imagethirds {
 a:link {
 	font-weight: bold;
 	text-decoration:none;
-	color: bisque;
+	color: white;
 }
 
 a:visited {
 	font-weight: bold;
 	text-decoration:none;
-	color: bisque;
+	color: white;
 }
 
 a:hover{
@@ -127,7 +127,7 @@ a:hover{
 a:active {
 	font-weight: bold;
 	text-decoration:none;
-	color: bisque;
+	color: white;
 }
 
 
