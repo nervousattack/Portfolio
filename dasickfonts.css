@@ -286,12 +286,15 @@ div {
 	text-transform: uppercase;
 }
 
-.footnotes {
-	font-family: Helvetica;
-	font-size: 13px;
-	line-height: 16px;
-	font-weight: bold;
-	letter-spacing: normal;
+blockquote {
+	font-family: Courier, 'Courier New', monospace;
+	font-size: 18px;
+}
+
+.footnote {
+	font-family: Courier, 'Courier New', monospace;
+	font-size: 11px;
+	line-height: normal;
 }
 
 
