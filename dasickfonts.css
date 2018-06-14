@@ -166,84 +166,6 @@
 	margin-bottom:50px;
 }
 
-/* RESPONSIVE ----------------------------- */
-
-@media screen and (max-width:680px){
-
-	.Artist {
-		font-size: 50px;
-		margin-bottom:20px;
-	}
-
-	.Blocks {
-		font-size: 50px;
-		margin-bottom:20px;
-	}
-
-	.BoldGod {
-		font-size: 50px;
-		margin-bottom:20px;
-	}
-
-	.GUY {
-		font-size: 50px;
-		margin-bottom:40px;
-	}
-
-	.MudClub {
-		font-size: 50px;
-		margin-bottom:30px;
-	}
-
-	.Orchard {
-		font-size: 50px;
-		margin-bottom:40px;
-	}
-
-	.Pringip {
-		font-size: 50px;
-		margin-bottom:20px;
-		line-height: normal;
-	}
-
-	.Scribble {
-		font-size: 50px;
-		margin-bottom:20px;
-		line-height: normal;
-	}
-
-	.Slash {
-		font-size: 50px;
-		margin-bottom:20px;
-	}
-
-	.SlowScript {
-		font-size: 50px;
-		margin-bottom:30px;
-	}
-
-	.TimeStamp {
-		font-size: 50px;
-		margin-bottom:20px;
-	}
-
-	.Womb1 {
-		font-size: 50px;
-		margin-bottom:0;
-	}
-
-	.Womb2 {
-		font-size: 50px;
-		margin-bottom:40px;
-	}
-
-	.Wreckage {
-		font-size: 50px;
-		margin-bottom:30px;
-		line-height: normal;
-	}
-
-}
 
 /* Other shit ----------- */
 
@@ -255,7 +177,7 @@ body {
 	letter-spacing: -0.1px;
 	text-align: left;
 	color: black;
-	background-color: #fff;
+	background-color: #eee;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -426,6 +348,79 @@ a:active {
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
     column-count: 1;
-}
+	}
+
+	.Artist {
+		font-size: 50px;
+		margin-bottom:20px;
+	}
+
+	.Blocks {
+		font-size: 50px;
+		margin-bottom:20px;
+	}
+
+	.BoldGod {
+		font-size: 50px;
+		margin-bottom:20px;
+	}
+
+	.GUY {
+		font-size: 50px;
+		margin-bottom:40px;
+	}
+
+	.MudClub {
+		font-size: 50px;
+		margin-bottom:30px;
+	}
+
+	.Orchard {
+		font-size: 50px;
+		margin-bottom:40px;
+	}
+
+	.Pringip {
+		font-size: 50px;
+		margin-bottom:20px;
+		line-height: normal;
+	}
+
+	.Scribble {
+		font-size: 50px;
+		margin-bottom:20px;
+		line-height: normal;
+	}
+
+	.Slash {
+		font-size: 50px;
+		margin-bottom:20px;
+	}
+
+	.SlowScript {
+		font-size: 50px;
+		margin-bottom:30px;
+	}
+
+	.TimeStamp {
+		font-size: 50px;
+		margin-bottom:20px;
+	}
+
+	.Womb1 {
+		font-size: 50px;
+		margin-bottom:0;
+	}
+
+	.Womb2 {
+		font-size: 50px;
+		margin-bottom:40px;
+	}
+
+	.Wreckage {
+		font-size: 50px;
+		margin-bottom:30px;
+		line-height: normal;
+	}
 
 }
