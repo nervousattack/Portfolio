@@ -297,6 +297,15 @@ blockquote {
 	line-height: normal;
 }
 
+.writing {
+	letter-spacing: -0.01px; 
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 16px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 16px; /* Firefox */
+    column-gap: 16px;"
+}
 
 span.spacer {
    padding:0 30px;
@@ -412,5 +421,11 @@ a:active {
 	width:100%;
     margin-right:0;
 	}
+
+	.writing { 
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
 
 }
