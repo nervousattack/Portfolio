@@ -328,6 +328,10 @@ a:active {
 		font-size: 16px;
 		line-height: 18px;
 	}
+
+	blockquote {
+	font-size: 14px;
+	}
 	
 	#container {
 		margin: 2% 2%;
