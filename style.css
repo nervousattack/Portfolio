@@ -8,7 +8,7 @@ body {
 	color: white;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: yellowgreen;
+	background: #323232;
 }
 
 div {
@@ -98,28 +98,24 @@ img.imagethirds {
 /* LINKS --------------- */
 
 a:link {
-	font-weight: bold;
 	text-decoration:none;
-	color: white;
+	color: bisque
 }
 
 a:visited {
-	font-weight: bold;
 	text-decoration:none;
-	color: white;
+	color: bisque;
 }
 
 a:hover{
-	font-weight: bold;
 	text-decoration:none;
-	color: #fff;
+	color: bisque;
 	text-shadow: 0px 0px 10px white;
 }
 
 a:active {
-	font-weight: bold;
 	text-decoration:none;
-	color: white;
+	color: bisque;
 }
 
 

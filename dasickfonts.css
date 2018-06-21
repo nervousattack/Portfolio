@@ -293,28 +293,24 @@ img.imagethirds {
 /* LINKS --------------- */
 
 a:link {
-	font-weight: bold;
 	text-decoration:none;
-	color: black;
+	color: slateblue;
 }
 
 a:visited {
-	font-weight: bold;
 	text-decoration:none;
-	color: black;
+	color: slateblue;
 }
 
 a:hover{
-	font-weight: bold;
 	text-decoration:none;
-	color: bisque;
-	text-shadow: 0px 0px 10px bisque;
+	color: slateblue;
+	text-shadow: 0px 0px 10px slateblue;
 }
 
 a:active {
-	font-weight: bold;
 	text-decoration:none;
-	color: black;
+	color: slateblue;
 }
 
 
