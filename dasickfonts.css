@@ -49,6 +49,11 @@
 }
 
 @font-face {
+    font-family: "Squarevetica";
+    src: url(fonts/dsf/Squarevetica.otf);
+}
+
+@font-face {
     font-family: "TimeStamp";
     src: url(fonts/dsf/TimeStamp-Standard.otf);
 }
@@ -133,6 +138,13 @@
 
 .SlowScript {
 	font-family: "SlowScript";
+	font-size: 80px;
+	font-weight: normal;
+	margin-bottom:50px;
+}
+
+.Squarevetica {
+	font-family: "Squarevetica";
 	font-size: 80px;
 	font-weight: normal;
 	margin-bottom:50px;
@@ -402,6 +414,11 @@ a:active {
 	}
 
 	.SlowScript {
+		font-size: 50px;
+		margin-bottom:30px;
+	}
+
+	.Squarevetica {
 		font-size: 50px;
 		margin-bottom:30px;
 	}
