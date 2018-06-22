@@ -5,10 +5,10 @@ body {
 	line-height: 23px;
 	letter-spacing: -0.1px;
 	text-align: left;
-	color: white;
+	color: black;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: #323232;
+	background: #eee;
 }
 
 div {
@@ -53,7 +53,7 @@ span.spacer {
 hr { 
 	width: 100%;
 	display: block;
-    border: 5px solid white;
+    border: 5px solid black;
     border-style: none none solid; 
     color: #fff; 
     background-color: #fff; 
@@ -89,8 +89,8 @@ img.imagethirds {
     margin-right:2%;
 }
 
-::selection { background: #fff; color: #000; text-shadow: none; /* Safari */ }
-::-moz-selection { background: #fff; color: #000; text-shadow: none; /* Firefox */ }
+::selection { background: #000; color: slateblue; text-shadow: none; /* Safari */ }
+::-moz-selection { background: #000; color: slateblue; text-shadow: none; /* Firefox */ }
 
 
 
@@ -99,23 +99,23 @@ img.imagethirds {
 
 a:link {
 	text-decoration:none;
-	color: bisque
+	color: slateblue;
 }
 
 a:visited {
 	text-decoration:none;
-	color: bisque;
+	color: slateblue;
 }
 
 a:hover{
 	text-decoration:none;
-	color: bisque;
-	text-shadow: 0px 0px 10px white;
+	color: slateblue;
+	text-shadow: 0px 0px 10px slateblue;
 }
 
 a:active {
 	text-decoration:none;
-	color: bisque;
+	color: slateblue;
 }
 
 
