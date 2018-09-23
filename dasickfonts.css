@@ -14,6 +14,11 @@
 }
 
 @font-face {
+    font-family: "ColdIcePlant";
+    src: url(fonts/dsf/ColdIcePlant-Mono.otf);
+}
+
+@font-face {
     font-family: "GUY";
     src: url(fonts/dsf/GUY1976-ONE.otf);
 }
@@ -89,6 +94,13 @@
 
 .BoldGod {
 	font-family: "BoldGod";
+	font-size: 80px;
+	font-weight: normal;
+	margin-bottom:50px;
+}
+
+.ColdIcePlant {
+	font-family: "ColdIcePlant";
 	font-size: 80px;
 	font-weight: normal;
 	margin-bottom:50px;
