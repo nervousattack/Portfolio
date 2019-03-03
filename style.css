@@ -140,6 +140,7 @@ a:active {
 	body {
 		font-size: 18px;
 		line-height: 19px;
+		letter-spacing: normal;
 	}
 	
 	#container {
