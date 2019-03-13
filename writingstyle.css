@@ -1,0 +1,176 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 37px;
+	letter-spacing: -0.3px;
+	text-align: left;
+	color: black;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #eee;
+}
+
+div {
+	width: 100%;
+	float: left;
+}
+
+#container {
+	width: 97%;
+	margin: 20px 1.5%;
+	float: none;
+	clear: both;
+}
+
+
+
+/* STYLE --------------- */
+
+.titles {
+	letter-spacing: -1px;
+	border-radius: 20px;
+	background: #89FF81;
+	color: black;
+	padding: 20px;
+}
+
+blockquote {
+	font-family:'Times New Roman', Times, serif; 
+	font-style: italic;
+	letter-spacing: -1px;
+	font-size: 38px;
+	line-height: 37px;
+}
+
+.footnote {
+	font-family: Courier, 'Courier New', monospace;
+	font-size: 16px;
+	line-height: normal;
+}
+
+.writing {
+	letter-spacing: -0.01px;
+	width: 75%;
+	margin-bottom: 90px;
+}
+
+span.spacer {
+   padding:0 30px;
+}
+
+hr { 
+	width: 100%;
+	display: block;
+    border: 5px solid black;
+    border-style: none none solid; 
+    color: #fff; 
+    background-color: #fff; 
+    margin: 10px 0 1.5em 0; 
+    padding: 0;
+    float: left;
+    clear: both;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+    
+img {
+	max-width: 100%;
+	max-height: 700px;
+	padding: 0;
+	display: block;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    float: left;
+	border-style: none;
+	text-decoration: none;
+}
+
+img.shadow {
+	border: 1px solid #ccc;
+   padding: 0;
+}
+
+::selection { background: #000; color: slateblue; text-shadow: none; /* Safari */ }
+::-moz-selection { background: #000; color: slateblue; text-shadow: none; /* Firefox */ }
+
+
+
+
+/* LINKS --------------- */
+
+a:link {
+	text-decoration:none;
+	color: slateblue;
+}
+
+a:visited {
+	text-decoration:none;
+	color: slateblue;
+}
+
+a:hover{
+	text-decoration:none;
+	color: slateblue;
+	text-shadow: 0px 0px 10px slateblue;
+}
+
+a:active {
+	text-decoration:none;
+	color: slateblue;
+}
+
+
+
+/* RESPONSIVE ----------------------------- */
+
+@media screen and (max-width:1024px){
+
+	#container {
+		margin: 2% 2%;
+		width: 96%;
+	}
+
+	.titles {
+		padding: 12px;
+		border-radius: 12px;
+		letter-spacing: normal;
+	}
+
+	.writing { 
+	    width: 100%;
+	    margin-bottom: 60px;
+	}
+}
+
+@media screen and (max-width:767px){
+	
+	body {
+		font-size: 18px;
+		line-height: 19px;
+		letter-spacing: normal;
+	}
+
+	.titles {
+		padding: 8px;
+		border-radius: 10px;
+		letter-spacing: normal;
+	}
+
+	blockquote {
+		font-size: 17px;
+		line-height: 18px;
+		letter-spacing: normal;
+	}
+
+	.footnote {
+		font-size: 13px;
+	}
+	
+	img {
+		max-width: 100% !important;
+	}
+	
+}
