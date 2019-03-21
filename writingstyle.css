@@ -35,12 +35,10 @@ div {
 	padding: 20px;
 }
 
-blockquote {
-	font-family:'Times New Roman', Times, serif; 
+blockquote { 
 	font-style: italic;
-	letter-spacing: -1px;
-	font-size: 38px;
-	line-height: 37px;
+	font-weight: bold;
+	letter-spacing: -0.5px;
 }
 
 .footnote {
