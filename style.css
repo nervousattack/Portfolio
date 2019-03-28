@@ -2,7 +2,7 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 36px;
-	line-height: 37px;
+	line-height: 38px;
 	letter-spacing: -0.3px;
 	text-align: left;
 	color: white;
@@ -23,6 +23,7 @@ div {
 	justify-content: flex-start;
 	align-items: flex-start;
 	align-content: flex-start;
+	margin-bottom: 30px;
 }
 
 #container {
@@ -141,7 +142,7 @@ a:active {
 	
 	body {
 		font-size: 18px;
-		line-height: 19px;
+		line-height: 20px;
 		letter-spacing: normal;
 	}
 	
