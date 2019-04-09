@@ -40,6 +40,7 @@ figcaption {
 	line-height: 22px;
 	border-left: 3px solid #89FF81;
 	padding-left: 7px;
+	letter-spacing: normal;
 }
 
 figure {
@@ -65,6 +66,13 @@ hr {
 
 p {
 	margin: 0 0 1em 0;
+}
+
+.year {
+	color: #89FF81;
+	vertical-align: super;
+	font-size: 13px;
+	line-height: normal;
 }
     
 img {
