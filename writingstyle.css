@@ -54,6 +54,14 @@ blockquote {
 	margin-bottom: 90px;
 }
 
+.CurRec {
+	vertical-align: super;
+	font-size: 16px;
+	line-height: normal;
+	letter-spacing: 0.5px;
+	color: #89FF81;
+}
+
 span.spacer {
    padding:0 30px;
 }
@@ -175,4 +183,7 @@ a:active {
 		max-width: 100% !important;
 	}
 	
+	.CurRec {
+		font-size: 13px;
+	}
 }

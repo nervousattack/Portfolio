@@ -74,6 +74,14 @@ p {
 	font-size: 13px;
 	line-height: normal;
 }
+
+.CurRec {
+	vertical-align: super;
+	font-size: 16px;
+	line-height: normal;
+	letter-spacing: 0.5px;
+	color: #89FF81;
+}
     
 img {
 	height: 100%;
@@ -159,6 +167,10 @@ a:active {
 
 	figcaption {
 		width: 100%;
+	}
+
+	.CurRec {
+		font-size: 13px;
 	}
 }
 
