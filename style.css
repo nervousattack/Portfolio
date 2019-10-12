@@ -97,6 +97,10 @@ img.shadow {
 	border: 1px solid #202020;
 }
 
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
+
 .spacer {
 	padding-right: 50px;
 }
@@ -159,6 +163,13 @@ a:active {
 	iframe {
 		width: 98%;
 		height: 600px;
+	}
+
+	video {
+		width: 100%;
+		height: auto;
+		margin: 0 0 5px 0;
+		padding: 0;
 	}
 
 	figure {
