@@ -97,10 +97,6 @@ img.shadow {
 	border: 1px solid #202020;
 }
 
-video::-webkit-media-controls-start-playback-button {
-    display: none;
-}
-
 .spacer {
 	padding-right: 50px;
 }
