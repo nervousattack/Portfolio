@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: "Immortalist";
+    src: url(fonts/dsf/Immortalist-Light.otf);
+}
+
+@font-face {
     font-family: "MudClub";
     src: url(fonts/dsf/MudClub-FranklintheGoth.otf);
 }
@@ -108,6 +113,13 @@
 
 .GUY {
 	font-family: "GUY";
+	font-size: 80px;
+	font-weight: normal;
+	margin-bottom:50px;
+}
+
+.Immortalist {
+	font-family: "Immortalist";
 	font-size: 80px;
 	font-weight: normal;
 	margin-bottom:50px;
@@ -407,6 +419,11 @@ a:active {
 	}
 
 	.GUY {
+		font-size: 50px;
+		margin-bottom:40px;
+	}
+
+	.Immortalist {
 		font-size: 50px;
 		margin-bottom:40px;
 	}
