@@ -1,8 +1,13 @@
+@font-face {
+    font-family: "BallPill";
+    src: url(fonts/BallPill-regular.otf);
+}
+
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: BallPill, Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 36px;
-	line-height: 40px;
+	line-height: 44px;
 	letter-spacing: -0.3px;
 	text-align: left;
 	color: white;
@@ -36,7 +41,7 @@ div {
 
 figcaption {
 	width: 335px;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 22px;
 	border-left: 3px solid #89FF81;
 	padding-left: 7px;
@@ -48,6 +53,11 @@ figure {
 	padding: 0;
 }
 
+#bottomcredits {
+	color: #89FF81;
+	font-size: 11px;
+	line-height: 15px;
+}
 
 /* STYLE --------------- */
 
@@ -70,7 +80,7 @@ p {
 
 sup {
 	color: #89FF81;
-	font-size: 13px;
+	font-size: 11px;
 	display: inline-block;
 }
 
@@ -139,7 +149,7 @@ a:active {
 @media screen and (max-width:767px){
 	
 	body {
-		font-size: 20px;
+		font-size: 17px;
 		line-height: 22px;
 		letter-spacing: normal;
 	}
@@ -176,7 +186,7 @@ a:active {
 	}
 
 	.CurRec {
-		font-size: 13px;
+		font-size: 11px;
 	}
 }
 

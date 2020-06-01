@@ -1,8 +1,13 @@
+@font-face {
+    font-family: "BallPill";
+    src: url(fonts/BallPill-regular.otf);
+}
+
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 36px;
-	line-height: 40px;
+	line-height: 41px;
 	letter-spacing: -0.3px;
 	text-align: left;
 	color: black;
@@ -24,11 +29,22 @@ div {
 	clear: both;
 }
 
-
+#bottomcredits {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	color: slateblue;
+	font-size: 11px;
+	line-height: 15px;
+}
 
 /* STYLE --------------- */
 
+#header {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	line-height: 44px;
+}
+
 .titles {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	letter-spacing: normal;
 	border-radius: 20px;
 	background: #89FF81;
@@ -37,18 +53,19 @@ div {
 }
 
 blockquote { 
-	font-style: italic;
-	font-weight: bold;
-	letter-spacing: -0.5px;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	margin-right: 4em;
+	margin-left: 2.5em;
 }
 
 .footnote {
-	font-family: Courier, 'Courier New', monospace;
+	font-family: "BallPill", Courier, 'Courier New', monospace;
 	font-size: 16px;
 	line-height: normal;
 	border-radius: .6em;
-    padding: .1em .1em .1em .12em;
-    border: 1px solid slateblue;
+    padding: .1em .2em .1em .2em;
+    border: 2px solid slateblue;
     font-weight: normal;
     font-style: normal;
 }
@@ -174,6 +191,10 @@ a:active {
 		letter-spacing: normal;
 	}
 
+	#header {
+		font-size: 17px;
+	}
+
 	.titles {
 		padding: 8px;
 		border-radius: 10px;
@@ -181,20 +202,25 @@ a:active {
 	}
 
 	blockquote {
-		font-size: 19px;
+		font-size: 16px;
 		line-height: 21px;
 		letter-spacing: normal;
 	}
 
 	.footnote {
-		font-size: 13px;
+		font-size: 11px;
+		border: 1px solid slateblue;
 	}
 	
+	.footnotebottom {
+		font-size: 13px;
+	}
+
 	img {
 		max-width: 100% !important;
 	}
 	
 	.CurRec {
-		font-size: 13px;
+		font-size: 11px;
 	}
 }

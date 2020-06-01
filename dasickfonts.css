@@ -205,8 +205,13 @@
 
 /* Other shit ----------- */
 
+@font-face {
+    font-family: "BallPill";
+    src: url(fonts/BallPill-regular.otf);
+}
+
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 36px;
 	line-height: 40px;
@@ -231,9 +236,18 @@ div {
 	clear: both;
 }
 
-
+#bottomcredits {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	color: #89FF81;
+	font-size: 11px;
+	line-height: 15px;
+}
 
 /* STYLE --------------- */
+
+#header {
+	line-height: 44px;
+}
 
 .titles {
 	letter-spacing: -1px;
@@ -241,26 +255,6 @@ div {
 	background: #89FF81;
 	color: black;
 	padding: 20px;
-}
-
-blockquote {
-	font-family:'Times New Roman', Times, serif; 
-	font-style: italic;
-	letter-spacing: -1px;
-	font-size: 38px;
-	line-height: 37px;
-}
-
-.footnote {
-	font-family: Courier, 'Courier New', monospace;
-	font-size: 16px;
-	line-height: normal;
-}
-
-.writing {
-	letter-spacing: -0.01px;
-	width: 75%;
-	margin-bottom: 90px;
 }
 
 .CurRec {
