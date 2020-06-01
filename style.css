@@ -68,11 +68,10 @@ p {
 	margin: 0 0 1em 0;
 }
 
-.year {
+sup {
 	color: #89FF81;
-	vertical-align: super;
 	font-size: 13px;
-	line-height: normal;
+	display: inline-block;
 }
 
 .CurRec {
