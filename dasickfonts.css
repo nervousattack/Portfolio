@@ -206,20 +206,28 @@
 /* Other shit ----------- */
 
 @font-face {
+    font-family: "Inferi";
+    src: url(fonts/Inferi-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: "Inferi";
+    font-style: italic;
+    src: url(fonts/Inferi-ExtraLightItalic.otf);
+}
+
+@font-face {
     font-family: "BallPill";
     src: url(fonts/BallPill-regular.otf);
 }
 
 body {
-	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	font-family: "Inferi", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 36px;
-	line-height: 40px;
-	letter-spacing: -0.3px;
+	line-height: 43px;
 	text-align: left;
 	color: white;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 	background: slateblue;
 	cursor: crosshair;
 }
@@ -236,30 +244,34 @@ div {
 	clear: both;
 }
 
+#header {
+	width: 75%;
+	clear: both;
+}
+
 #bottomcredits {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	color: #89FF81;
 	font-size: 11px;
-	line-height: 15px;
+	line-height: 18px;
 }
 
 /* STYLE --------------- */
 
-#header {
-	line-height: 44px;
-}
-
 .titles {
-	letter-spacing: -1px;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	letter-spacing: normal;
 	border-radius: 20px;
 	background: #89FF81;
 	color: black;
-	padding: 20px;
+	padding: 15px 20px;
+	font-size: 30px;
 }
 
 .CurRec {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	vertical-align: super;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: normal;
 	letter-spacing: 0.5px;
 	color: #89FF81;
@@ -361,15 +373,20 @@ a:active {
 @media screen and (max-width:767px){
 	
 	body {
-		font-size: 20px;
-		line-height: 22px;
+		font-size: 21px;
+		line-height: 25px;
 		letter-spacing: normal;
+	}
+
+	#header {
+		width: 100%;
 	}
 
 	.titles {
 		padding: 8px;
 		border-radius: 10px;
 		letter-spacing: normal;
+		font-size: 16px;
 	}
 
 	blockquote {
@@ -377,17 +394,17 @@ a:active {
 		line-height: 21px;
 		letter-spacing: normal;
 	}
-
-	.footnote {
-		font-size: 13px;
-	}
 	
 	img {
 		max-width: 100% !important;
 	}
 	
+	sup {
+		font-size: 10px;
+	}
+
 	.CurRec {
-		font-size: 13px;
+		font-size: 10px;
 	}
 
 

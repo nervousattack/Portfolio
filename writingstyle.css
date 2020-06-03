@@ -1,18 +1,26 @@
 @font-face {
+    font-family: "Inferi";
+    src: url(fonts/Inferi-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: "Inferi";
+    font-style: italic;
+    src: url(fonts/Inferi-ExtraLightItalic.otf);
+}
+
+@font-face {
     font-family: "BallPill";
     src: url(fonts/BallPill-regular.otf);
 }
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Inferi", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 36px;
-	line-height: 41px;
-	letter-spacing: -0.3px;
+	line-height: 43px;
 	text-align: left;
 	color: black;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 	background: #eee;
 	cursor: crosshair;
 }
@@ -29,19 +37,19 @@ div {
 	clear: both;
 }
 
+#header {
+	width: 75%;
+	clear: both;
+}
+
 #bottomcredits {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	color: slateblue;
 	font-size: 11px;
-	line-height: 15px;
+	line-height: 18px;
 }
 
 /* STYLE --------------- */
-
-#header {
-	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	line-height: 44px;
-}
 
 .titles {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
@@ -49,7 +57,8 @@ div {
 	border-radius: 20px;
 	background: #89FF81;
 	color: black;
-	padding: 20px;
+	padding:15px 20px;
+	font-size: 30px;
 }
 
 blockquote { 
@@ -83,8 +92,9 @@ blockquote {
 }
 
 .CurRec {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	vertical-align: super;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: normal;
 	letter-spacing: 0.5px;
 	color: #89FF81;
@@ -192,13 +202,14 @@ a:active {
 	}
 
 	#header {
-		font-size: 17px;
+		width: 100%;
 	}
 
 	.titles {
 		padding: 8px;
 		border-radius: 10px;
 		letter-spacing: normal;
+		font-size: 16px;
 	}
 
 	blockquote {
@@ -208,8 +219,9 @@ a:active {
 	}
 
 	.footnote {
-		font-size: 11px;
+		font-size: 10px;
 		border: 1px solid slateblue;
+		letter-spacing: 1px;
 	}
 	
 	.footnotebottom {
@@ -220,7 +232,11 @@ a:active {
 		max-width: 100% !important;
 	}
 	
+	sup {
+		font-size: 10px;
+	}
+
 	.CurRec {
-		font-size: 11px;
+		font-size: 10px;
 	}
 }

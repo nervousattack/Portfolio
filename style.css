@@ -1,18 +1,26 @@
 @font-face {
+    font-family: "Inferi";
+    src: url(fonts/Inferi-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: "Inferi";
+    font-style: italic;
+    src: url(fonts/Inferi-ExtraLightItalic.otf);
+}
+
+@font-face {
     font-family: "BallPill";
     src: url(fonts/BallPill-regular.otf);
 }
 
 body {
-	font-family: BallPill, Helvetica, Arial, sans-serif;
+	font-family: "Inferi", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 36px;
-	line-height: 44px;
-	letter-spacing: -0.3px;
+	line-height: 43px;
 	text-align: left;
 	color: white;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 	background: black;
 	cursor: crosshair;
 }
@@ -39,13 +47,18 @@ div {
 	clear: both;
 }
 
+#header {
+	width: 75%;
+	clear: both;
+}
+
 figcaption {
 	width: 335px;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 22px;
 	border-left: 3px solid #89FF81;
 	padding-left: 7px;
-	letter-spacing: normal;
+	letter-spacing: 0.7px;
 }
 
 figure {
@@ -54,9 +67,10 @@ figure {
 }
 
 #bottomcredits {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	color: #89FF81;
 	font-size: 11px;
-	line-height: 15px;
+	line-height: 18px;
 }
 
 /* STYLE --------------- */
@@ -79,14 +93,16 @@ p {
 }
 
 sup {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	color: #89FF81;
 	font-size: 11px;
 	display: inline-block;
 }
 
 .CurRec {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	vertical-align: super;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: normal;
 	letter-spacing: 0.5px;
 	color: #89FF81;
@@ -149,8 +165,8 @@ a:active {
 @media screen and (max-width:767px){
 	
 	body {
-		font-size: 17px;
-		line-height: 22px;
+		font-size: 21px;
+		line-height: 25px;
 		letter-spacing: normal;
 	}
 	
@@ -159,6 +175,10 @@ a:active {
 		width: 96%;
 	}
 		
+	#header {
+		width: 100%;
+	}
+
 	img {
 		max-height: initial;
 		max-width: 100%;
@@ -185,8 +205,12 @@ a:active {
 		width: 100%;
 	}
 
+	sup {
+		font-size: 10px;
+	}
+
 	.CurRec {
-		font-size: 11px;
+		font-size: 10px;
 	}
 }
 
