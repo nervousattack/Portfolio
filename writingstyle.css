@@ -29,11 +29,6 @@ body {
 	cursor: crosshair;
 }
 
-div {
-	width: 100%;
-	float: left;
-}
-
 
 #container {
 	width: 99%;
@@ -147,7 +142,7 @@ blockquote {
 	font-size: 16px;
 	line-height: normal;
 	border-radius: .6em;
-    padding: .1em .2em .1em .2em;
+    padding: .1em .2em .07em .2em;
     border: 2px solid slateblue;
     font-weight: normal;
     font-style: normal;
@@ -169,39 +164,10 @@ span.spacer {
    padding:0 17px;
 }
 
-hr { 
-	width: 100%;
-	display: block;
-    border: 5px solid black;
-    border-style: none none solid; 
-    color: #fff; 
-    background-color: #fff; 
-    margin: 10px 0 1.5em 0; 
-    padding: 0;
-    float: left;
-    clear: both;
-}
-
 p {
 	margin: 0 0 1em 0;
 }
     
-img {
-	max-width: 100%;
-	max-height: 700px;
-	padding: 0;
-	display: block;
-    margin-bottom: 25px;
-    margin-right: 25px;
-    float: left;
-	border-style: none;
-	text-decoration: none;
-}
-
-img.shadow {
-	border: 1px solid #ccc;
-   padding: 0;
-}
 
 ::selection { background: #000; color: slateblue; text-shadow: none; /* Safari */ }
 ::-moz-selection { background: #000; color: slateblue; text-shadow: none; /* Firefox */ }
@@ -239,69 +205,114 @@ a:active {
 
 /* RESPONSIVE ----------------------------- */
 
-@media screen and (max-width:1024px){
-
-	#container {
-		margin: 2% 2%;
-		width: 96%;
-	}
-
-	.titles {
-		padding: 12px;
-		border-radius: 12px;
-		letter-spacing: normal;
-	}
-
-	.writing { 
-	    width: 100%;
-	    margin-bottom: 60px;
-	}
-}
-
-@media screen and (max-width:767px){
-	
+@media screen and (max-width:1220px){
 	body {
-		font-size: 20px;
-		line-height: 22px;
-		letter-spacing: normal;
+		font-size: 1.6em;
 	}
 
-	#header {
-		width: 100%;
+	.headerleft {
+		width: 60%;
+	}
+	.headerright {
+		width: 36%;
 	}
 
-	.titles {
-		padding: 8px;
-		border-radius: 10px;
-		letter-spacing: normal;
-		font-size: 16px;
+	.details {
+		width: 99%;
+		height: 55px;
+		margin-bottom: 20px;
+	}
+	.name {
+		width: 60%;
+		min-height: 55px;
+	}
+	.year {
+		width: 38%;
+		min-height: 55px;
+	}
+
+	.image {
+		width: 99%;
+	}
+	.writing {
+		width: 60%;
+	}
+	.endnotes {
+		width:38%;
 	}
 
 	blockquote {
-		font-size: 16px;
-		line-height: 21px;
+		font-size: 20px;
+		line-height: 26px;
 		letter-spacing: normal;
 	}
 
 	.footnote {
-		font-size: 10px;
-		border: 1px solid slateblue;
-		letter-spacing: 1px;
-	}
-	
-	.footnotebottom {
 		font-size: 13px;
+		letter-spacing: 1px;
+		padding: .15em .15em .05em .2em;
 	}
 
-	img {
-		max-width: 100% !important;
+}
+
+@media screen and (max-width:890px){
+	
+	body {
+		font-size: 1.8em;
+	}
+
+	#container {
+		margin: 2%;
+		width: 98%;
 	}
 	
-	sup {
-		font-size: 10px;
+	.headerleft {
+		width: 100%;
+	}
+	.headerright {
+		width: 100%;
+		font-size: 0.5em;
 	}
 
-	.CurRec {
-		font-size: 10px;
+	.details {
+		width: 100%;
+		height: auto;
+		margin-bottom: 10px;
 	}
+	.name {
+		width: 98%;
+		min-height: 55px;
+		margin-bottom: 10px;
+	}
+	.year {
+		width: 98%;
+		min-height: 55px;
+	}
+
+	.image {
+		width: 98%;
+		margin-bottom: 40px;
+		border-right: 3px solid slateblue;
+		border-radius: 0 0 20px 20px;
+	}
+	.writing {
+		width: 100%;
+		height: auto;
+	}
+	.endnotes {
+		width:98%;
+		float: left;
+		padding: 2%;
+	}
+
+	blockquote {
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: normal;
+	}
+
+	.footnotebottom {
+		font-size: 14px;
+	}
+
 }
