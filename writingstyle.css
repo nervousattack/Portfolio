@@ -14,11 +14,15 @@
     src: url(fonts/BallPill-regular.otf);
 }
 
+html {
+	font-size: 100%;
+}
+
 body {
-	font-family: "Inferi", Helvetica, Arial, sans-serif;
+	font-family: "Inferi", Times, serif;
 	font-weight: normal;
-	font-size: 36px;
-	line-height: 43px;
+	font-size: 2.1em;
+	line-height: 1.3em;
 	text-align: left;
 	color: black;
 	background: #eee;
@@ -30,36 +34,106 @@ div {
 	float: left;
 }
 
+
 #container {
-	width: 97%;
-	margin: 20px 1.5%;
-	float: none;
-	clear: both;
+	width: 99%;
+	margin: 0 auto;
+	margin: 1%;
 }
 
-#header {
-	width: 75%;
-	clear: both;
+header {
+	width: 99%;
+}
+
+.headerleft {
+	width: 64%;
+	float: left;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	margin-right: 1%;
+	border:3px solid transparent;
+}
+.headerright {
+	width: 34%;
+	float: left;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.essays {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	width: 100%;
+}
+
+.details {
+	width: 99%;
+	height: 70px;
+	margin-bottom: 15px;
+	color: #89FF81;
+}
+.name {
+	width: 64%;
+	min-height: 70px;
+	float: left;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	border-top: 3px solid #89FF81;
+	border-right: 3px solid #89FF81;
+	border-left: 3px solid transparent;
+	border-radius: 0 20px 0 0;
+	padding-top: 5px;
+	margin-right: 1%;
+}
+.year {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	width: 34%;
+	min-height: 70px;
+	float: left;
+	padding-top: 5px;
+	border-top: 3px solid #89FF81;
+	border-right: 3px solid #89FF81;
+	border-radius: 0 20px 0 0;
+}
+
+.content {
+	width: 99%;
+	margin-bottom: 50px;
+	border-left: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+	border-radius: 0 0 0 20px;
+}
+.writing {
+	width: 64%;
+	float: left;
+	text-align: left;
+	letter-spacing: -0.01px;
+	margin-right: 1%;
+	border-right: 3px solid transparent;
+}
+.endnotes {
+	width:33%;
+	float: left;
 }
 
 #bottomcredits {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	color: slateblue;
+	color: #89FF81;
 	font-size: 11px;
 	line-height: 18px;
 }
 
-/* STYLE --------------- */
-
-.titles {
-	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	letter-spacing: normal;
-	border-radius: 20px;
-	background: #89FF81;
-	color: black;
-	padding:15px 20px;
-	font-size: 30px;
+#difference {
+	mix-blend-mode: difference;
+	width: 100%;
+	height: 150px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	pointer-events: none;
+	background-image: linear-gradient(to bottom, rgba(106, 90, 205, 0), rgba(106, 90, 205, 0.9) 100%);
 }
+
+/* STYLE --------------- */
 
 blockquote { 
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
@@ -81,21 +155,12 @@ blockquote {
 
 .footnotebottom {
 	font-family: Courier, 'Courier New', monospace;
-	font-size: 16px;
-	line-height: normal;
-}
-
-.writing {
-	letter-spacing: -0.01px;
-	width: 75%;
-	margin-bottom: 90px;
+	font-size: 14px;
+	line-height: 19px;
 }
 
 .CurRec {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	vertical-align: super;
-	font-size: 15px;
-	line-height: normal;
 	letter-spacing: 0.5px;
 	color: #89FF81;
 }

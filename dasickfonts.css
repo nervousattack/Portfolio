@@ -85,119 +85,119 @@
 
 .Artist {
 	font-family: "ArtistFont";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .Blocks {
 	font-family: "Blocks";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .BoldGod {
 	font-family: "BoldGod";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .ColdIcePlant {
 	font-family: "ColdIcePlant";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .GUY {
 	font-family: "GUY";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .Immortalist {
 	font-family: "Immortalist";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .MudClub {
 	font-family: "MudClub";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .Orchard {
 	font-family: "Orchard";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:60px;
 }
 
 .Pringip {
 	font-family: "Pringip";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .Scribble {
 	font-family: "Scribble";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .Slash {
 	font-family: "Slash";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .SlowScript {
 	font-family: "SlowScript";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .Squarevetica {
 	font-family: "Squarevetica";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .TimeStamp {
 	font-family: "TimeStamp";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .Womb1 {
 	font-family: "Womb1";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .Womb2 {
 	font-family: "Womb2";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
 
 .Wreckage {
 	font-family: "Wreckage";
-	font-size: 80px;
+	font-size: 130px;
 	font-weight: normal;
 	margin-bottom:50px;
 }
@@ -221,11 +221,15 @@
     src: url(fonts/BallPill-regular.otf);
 }
 
+html {
+	font-size: 100%;
+}
+
 body {
-	font-family: "Inferi", Helvetica, Arial, sans-serif;
+	font-family: "Inferi", Times, serif;
 	font-weight: normal;
-	font-size: 36px;
-	line-height: 43px;
+	font-size: 2.1em;
+	line-height: 1.3em;
 	text-align: left;
 	color: white;
 	background: slateblue;
@@ -237,16 +241,73 @@ div {
 	float: left;
 }
 
+
 #container {
-	width: 97%;
-	margin: 20px 1.5%;
-	float: none;
-	clear: both;
+	width: 99%;
+	margin: 0 auto;
+	margin: 1%;
 }
 
-#header {
-	width: 75%;
-	clear: both;
+header {
+	width: 99%;
+}
+
+.headerleft {
+	width: 64%;
+	float: left;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	margin-right: 1%;
+	border:3px solid transparent;
+}
+.headerright {
+	width: 34%;
+	float: left;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.details {
+	width: 99%;
+	height: 70px;
+	margin-bottom: 15px;
+}
+.name {
+	width: 64%;
+	min-height: 70px;
+	float: left;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+	border-left: 3px solid transparent;
+	border-radius: 0 20px 0 0;
+	padding-top: 5px;
+	margin-right: 1%;
+}
+.DL {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	width: 34%;
+	min-height: 70px;
+	float: left;
+	padding-top: 5px;
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+	border-radius: 0 20px 0 0;
+}
+
+
+.image {
+	width: 99%;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 0 0 0 20px;
+	margin-bottom: 50px;
+}
+.sampletext {
+	width: 100%;
+	text-align: left;
+	line-height: normal;
+	padding-left: 1%;
 }
 
 #bottomcredits {
@@ -256,63 +317,68 @@ div {
 	line-height: 18px;
 }
 
-/* STYLE --------------- */
-
-.titles {
-	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	letter-spacing: normal;
-	border-radius: 20px;
-	background: #89FF81;
-	color: black;
-	padding: 15px 20px;
-	font-size: 30px;
-}
-
-.CurRec {
-	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	vertical-align: super;
-	font-size: 15px;
-	line-height: normal;
-	letter-spacing: 0.5px;
-	color: #89FF81;
-}
-
-span.spacer {
-   padding:0 30px;
-}
-
-hr { 
+#difference {
+	mix-blend-mode: difference;
 	width: 100%;
-	display: block;
-    border: 5px solid black;
-    border-style: none none solid; 
-    color: #fff; 
-    background-color: #fff; 
-    margin: 10px 0 1.5em 0; 
-    padding: 0;
-    float: left;
-    clear: both;
+	height: 150px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	pointer-events: none;
+	background-image: linear-gradient(to bottom, rgba(137, 255, 129, 0), rgba(137, 255, 129, 0.9) 100%);
 }
+
+/* STYLE --------------- */
 
 p {
 	margin: 0 0 1em 0;
 }
+
+.CurRec {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	letter-spacing: 0.5px;
+	color: #89FF81;
+}
     
 img {
-	max-width: 100%;
-	max-height: 700px;
+	max-height: initial;
+	max-width: 90%;
+	height: auto;
 	padding: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 16px;
 	display: block;
-    margin-bottom: 25px;
-    margin-right: 25px;
-    float: left;
 	border-style: none;
 	text-decoration: none;
 }
 
 img.shadow {
-	border: 1px solid #ccc;
-   padding: 0;
+	border: 1px solid #323232;
+}
+
+img.thirds {
+	float: left;
+	max-height: 650px;
+}
+
+.imagecontainer {
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+
+video {
+	width: 95%;
+}
+iframe {
+	width: 95%
+	margin:0 auto;
+}
+
+.spacer {
+	padding-right: 50px;
 }
 
 ::selection { background: #000; color: slateblue; text-shadow: none; /* Safari */ }
@@ -350,62 +416,123 @@ a:active {
 
 
 /* RESPONSIVE ----------------------------- */
-
-@media screen and (max-width:1024px){
-
-	#container {
-		margin: 2% 2%;
-		width: 96%;
+@media screen and (max-width:1220px){
+	body {
+		font-size: 1.6em;
 	}
 
-	.titles {
-		padding: 12px;
-		border-radius: 12px;
-		letter-spacing: normal;
+	.headerleft {
+		width: 60%;
+	}
+	.headerright {
+		width: 36%;
 	}
 
-	.writing { 
-	    width: 100%;
-	    margin-bottom: 60px;
+	.details {
+		width: 99%;
+		height: 55px;
+		margin-bottom: 20px;
+	}
+	.name {
+		width: 60%;
+		min-height: 55px;
+	}
+	.DL {
+		width: 36%;
+		min-height: 55px;
+	}
+
+	.image {
+		width: 99%;
+	}
+	.sampletext {
+		border: 0;
+	}
+	
+
+	img {
+		max-height: initial;
+		max-width: 90%;
+		height: auto;
+	}
+	img.thirds {
+		max-height: 400px;
+	}
+	video {
+		width: 90%;
+		margin: -90px auto;
+	}
+	iframe {
+		width: 90%;
 	}
 }
 
-@media screen and (max-width:767px){
+
+@media screen and (max-width:890px){
 	
 	body {
-		font-size: 21px;
-		line-height: 25px;
-		letter-spacing: normal;
+		font-size: 1.8em;
 	}
 
-	#header {
+	#container {
+		margin: 2%;
+		width: 98%;
+	}
+	
+	.headerleft {
 		width: 100%;
 	}
-
-	.titles {
-		padding: 8px;
-		border-radius: 10px;
-		letter-spacing: normal;
-		font-size: 16px;
+	.headerright {
+		width: 100%;
+		font-size: 0.5em;
 	}
 
-	blockquote {
-		font-size: 19px;
-		line-height: 21px;
-		letter-spacing: normal;
+	.details {
+		width: 98%;
+		height: auto;
+		margin-bottom: 10px;
 	}
+	.name {
+		width: 100%;
+		min-height: 55px;
+		margin-bottom: 10px;
+	}
+	.DL {
+		width: 100%;
+		min-height: 55px;
+		padding-left: 0.5%;
+	}
+
+	.image {
+		width: 98%;
+		border-right: 3px solid black;
+		border-radius: 0 0 20px 20px;
+	}
+
 	
 	img {
-		max-width: 100% !important;
+		max-height: initial;
+		max-width: 90%;
+		height: auto;
 	}
-	
-	sup {
-		font-size: 10px;
+	img.thirds {
+		max-height: auto;
+		height: auto;
+	}
+	.imagecontainer {
+		flex-wrap: wrap;
+	}
+	video {
+		width: 98%;
+		margin: 0 auto;
+		max-height: initial;
+		height: auto;
+	}
+	iframe {
+		width: 98%;
+		padding: 0;
 	}
 
-	.CurRec {
-		font-size: 10px;
-	}
 
 
 
