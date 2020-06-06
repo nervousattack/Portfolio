@@ -57,7 +57,7 @@ header {
 
 .essays {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	width: 100%;
+	clear: both;
 }
 
 .details {
