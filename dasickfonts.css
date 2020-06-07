@@ -277,8 +277,8 @@ header {
 	min-height: 70px;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	border-top: 3px solid black;
-	border-right: 3px solid black;
+	border-top: 3px solid #7be874;
+	border-right: 3px solid #7be874;
 	border-left: 3px solid transparent;
 	border-radius: 0 20px 0 0;
 	padding-top: 5px;
@@ -290,16 +290,16 @@ header {
 	min-height: 70px;
 	float: left;
 	padding-top: 5px;
-	border-top: 3px solid black;
-	border-right: 3px solid black;
+	border-top: 3px solid #7be874;
+	border-right: 3px solid #7be874;
 	border-radius: 0 20px 0 0;
 }
 
 
 .image {
 	width: 99%;
-	border-left: 3px solid black;
-	border-bottom: 3px solid black;
+	border-left: 3px solid #7be874;
+	border-bottom: 3px solid #7be874;
 	border-radius: 0 0 0 20px;
 	margin-bottom: 50px;
 }
@@ -320,7 +320,7 @@ header {
 #difference {
 	mix-blend-mode: difference;
 	width: 100%;
-	height: 150px;
+	height: 200px;
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -505,7 +505,7 @@ a:active {
 
 	.image {
 		width: 98%;
-		border-right: 3px solid black;
+		border-right: 3px solid #7be874;
 		border-radius: 0 0 20px 20px;
 	}
 

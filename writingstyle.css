@@ -25,7 +25,7 @@ body {
 	line-height: 1.3em;
 	text-align: left;
 	color: black;
-	background: #eee;
+	background: #f0f0f0;
 	cursor: crosshair;
 }
 
@@ -64,15 +64,14 @@ header {
 	width: 99%;
 	height: 70px;
 	margin-bottom: 15px;
-	color: #89FF81;
 }
 .name {
 	width: 64%;
 	min-height: 70px;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	border-top: 3px solid #89FF81;
-	border-right: 3px solid #89FF81;
+	border-top: 3px solid #7be874;
+	border-right: 3px solid #7be874;
 	border-left: 3px solid transparent;
 	border-radius: 0 20px 0 0;
 	padding-top: 5px;
@@ -84,8 +83,8 @@ header {
 	min-height: 70px;
 	float: left;
 	padding-top: 5px;
-	border-top: 3px solid #89FF81;
-	border-right: 3px solid #89FF81;
+	border-top: 3px solid #7be874;
+	border-right: 3px solid #7be874;
 	border-radius: 0 20px 0 0;
 }
 
@@ -111,19 +110,18 @@ header {
 
 #bottomcredits {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	color: #89FF81;
+	color: #7be874;
 	font-size: 11px;
 	line-height: 18px;
 }
 
 #difference {
-	mix-blend-mode: difference;
 	width: 100%;
 	height: 150px;
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	z-index: 9999;
+	z-index: -9999;
 	pointer-events: none;
 	background-image: linear-gradient(to bottom, rgba(137, 255, 129, 0), rgba(137, 255, 129, 0.9) 100%);
 }
@@ -157,7 +155,7 @@ blockquote {
 .CurRec {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	letter-spacing: 0.5px;
-	color: #89FF81;
+	color: #7be874;
 }
 
 span.spacer {
@@ -292,8 +290,6 @@ a:active {
 	.image {
 		width: 98%;
 		margin-bottom: 40px;
-		border-right: 3px solid slateblue;
-		border-radius: 0 0 20px 20px;
 	}
 	.writing {
 		width: 100%;

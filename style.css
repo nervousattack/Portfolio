@@ -24,8 +24,8 @@ body {
 	font-size: 2.1em;
 	line-height: 1.3em;
 	text-align: left;
-	color: #eee;
-	background: #141414;
+	color: black;
+	background: #F0F0F0;
 	cursor: crosshair;
 }
 
@@ -70,8 +70,8 @@ header {
 	min-height: 70px;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	border-top: 3px solid slateblue;
-	border-right: 3px solid slateblue;
+	border-top: 3px solid #7be874;
+	border-right: 3px solid #7be874;
 	border-left: 3px solid transparent;
 	border-radius: 0 20px 0 0;
 	padding-top: 5px;
@@ -83,8 +83,8 @@ header {
 	min-height: 70px;
 	float: left;
 	padding-top: 5px;
-	border-top: 3px solid slateblue;
-	border-right: 3px solid slateblue;
+	border-top: 3px solid #7be874;
+	border-right: 3px solid #7be874;
 	border-radius: 0 20px 0 0;
 	margin-right: 1%;
 }
@@ -96,8 +96,8 @@ header {
 	line-height: 20px;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	padding-top: 5px;
-	border-top: 3px solid slateblue;
-	border-right: 3px solid slateblue;
+	border-top: 3px solid #7be874;
+	border-right: 3px solid #7be874;
 	border-radius: 0 20px 0 0;
 }
 .thing ul {
@@ -115,15 +115,15 @@ header {
 
 .image {
 	width: 99%;
-	border-left: 3px solid slateblue;
-	border-bottom: 3px solid slateblue;
+	border-left: 3px solid #7be874;
+	border-bottom: 3px solid #7be874;
 	border-radius: 0 0 0 20px;
 	margin-bottom: 50px;
 }
 .artwork {
 	width: 64%;
 	float: left;
-	border-right: 3px solid slateblue;
+	border-right: 3px solid #7be874;
 	text-align: center;
 	margin-right: 1%;
 }
@@ -136,19 +136,18 @@ header {
 
 #bottomcredits {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	color: #89FF81;
+	color: #7be874;
 	font-size: 11px;
 	line-height: 18px;
 }
 
 #difference {
-	mix-blend-mode: difference;
 	width: 100%;
-	height: 150px;
+	height: 200px;
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	z-index: 9999;
+	z-index: -9999;
 	pointer-events: none;
 	background-image: linear-gradient(to bottom, rgba(106, 90, 205, 0), rgba(106, 90, 205, 0.9) 100%);
 }
@@ -162,7 +161,7 @@ p {
 .CurRec {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	letter-spacing: 0.5px;
-	color: #89FF81;
+	color: #7be874;
 }
     
 img {
@@ -278,7 +277,7 @@ a:active {
 	.artwork {
 		width: 60%;
 		float: left;
-		border-right: 3px solid slateblue;
+		border-right: 3px solid #7be874;
 		text-align: center;
 		margin-right: 1%;
 	}
@@ -350,7 +349,7 @@ a:active {
 	.image {
 		width: 98%;
 		margin-bottom: 40px;
-		border-right: 3px solid slateblue;
+		border-right: 3px solid #7be874;
 		border-radius: 0 0 20px 20px;
 	}
 	.artwork {
