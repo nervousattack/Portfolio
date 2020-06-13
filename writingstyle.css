@@ -26,9 +26,9 @@ body {
 	text-align: left;
 	color: black;
 	background: #f0f0f0;
-	background: -moz-linear-gradient(0deg, rgba(106,90,205,1) 0%, rgba(240,240,240,1) 1%);
-	background: -webkit-linear-gradient(0deg, rgba(106,90,205,1) 0%, rgba(240,240,240,1) 1%);
-	background: linear-gradient(0deg, rgba(106,90,205,1) 0%, rgba(240,240,240,1) 1%);
+	background: -moz-linear-gradient(0deg, rgba(145,231,73,1) 0%, rgba(240,240,240,1) 2%);
+	background: -webkit-linear-gradient(0deg, rgba(145,231,73,1) 0%, rgba(240,240,240,1) 2%);
+	background: linear-gradient(0deg, rgba(145,231,73,1) 0%, rgba(240,240,240,1) 2%);
 	cursor: crosshair;
 }
 
@@ -73,8 +73,8 @@ header {
 	min-height: 70px;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	border-top: 3px solid #7be874;
-	border-right: 3px solid #7be874;
+	border-top: 3px solid black;
+	border-right: 3px solid black;
 	border-left: 3px solid transparent;
 	border-radius: 0 20px 0 0;
 	padding-top: 5px;
@@ -86,8 +86,8 @@ header {
 	min-height: 70px;
 	float: left;
 	padding-top: 5px;
-	border-top: 3px solid #7be874;
-	border-right: 3px solid #7be874;
+	border-top: 3px solid black;
+	border-right: 3px solid black;
 	border-radius: 0 20px 0 0;
 }
 
@@ -113,7 +113,7 @@ header {
 
 #bottomcredits {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	color: #7be874;
+	color: black;
 	font-size: 11px;
 	line-height: 18px;
 }
@@ -147,7 +147,8 @@ blockquote {
 .CurRec {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	letter-spacing: 0.5px;
-	color: #7be874;
+	color: black;
+	text-transform: uppercase;
 }
 
 span.spacer {
@@ -159,8 +160,8 @@ p {
 }
     
 
-::selection { background: #000; color: slateblue; text-shadow: none; /* Safari */ }
-::-moz-selection { background: #000; color: slateblue; text-shadow: none; /* Firefox */ }
+::selection { background: #91E749; color: black; text-shadow: none; /* Safari */ }
+::-moz-selection { background: #91E749; color: black; text-shadow: none; /* Firefox */ }
 
 
 

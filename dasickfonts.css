@@ -277,8 +277,8 @@ header {
 	min-height: 70px;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	border-top: 3px solid #7be874;
-	border-right: 3px solid #7be874;
+	border-top: 3px solid white;
+	border-right: 3px solid white;
 	border-left: 3px solid transparent;
 	border-radius: 0 20px 0 0;
 	padding-top: 5px;
@@ -290,16 +290,16 @@ header {
 	min-height: 70px;
 	float: left;
 	padding-top: 5px;
-	border-top: 3px solid #7be874;
-	border-right: 3px solid #7be874;
+	border-top: 3px solid white;
+	border-right: 3px solid white;
 	border-radius: 0 20px 0 0;
 }
 
 
 .image {
 	width: 99%;
-	border-left: 3px solid #7be874;
-	border-bottom: 3px solid #7be874;
+	border-left: 3px solid white;
+	border-bottom: 3px solid white;
 	border-radius: 0 0 0 20px;
 	margin-bottom: 50px;
 }
@@ -312,7 +312,7 @@ header {
 
 #bottomcredits {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	color: #89FF81;
+	color: white;
 	font-size: 11px;
 	line-height: 18px;
 }
@@ -326,7 +326,7 @@ header {
 	left: 0;
 	z-index: 9999;
 	pointer-events: none;
-	background-image: linear-gradient(to bottom, rgba(137, 255, 129, 0), rgba(137, 255, 129, 0.9) 100%);
+	background-image: linear-gradient(to bottom, rgba(137, 255, 129, 0), rgba(145,231,73, 1) 100%);
 }
 
 /* STYLE --------------- */
@@ -338,7 +338,8 @@ p {
 .CurRec {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	letter-spacing: 0.5px;
-	color: #89FF81;
+	color: white;
+	text-transform: uppercase;
 }
     
 img {
@@ -505,7 +506,7 @@ a:active {
 
 	.image {
 		width: 98%;
-		border-right: 3px solid #7be874;
+		border-right: 3px solid white;
 		border-radius: 0 0 20px 20px;
 	}
 

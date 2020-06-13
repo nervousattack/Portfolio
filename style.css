@@ -26,9 +26,9 @@ body {
 	text-align: left;
 	color: black;
 	background: rgb(240,240,240);
-	background: -moz-linear-gradient(0deg, rgba(106,90,205,1) 0%, rgba(240,240,240,1) 5%);
-	background: -webkit-linear-gradient(0deg, rgba(106,90,205,1) 0%, rgba(240,240,240,1) 5%);
-	background: linear-gradient(0deg, rgba(106,90,205,1) 0%, rgba(240,240,240,1) 5%);
+	background: -moz-linear-gradient(0deg, rgba(145,231,73,1) 0%, rgba(240,240,240,1) 5%);
+	background: -webkit-linear-gradient(0deg, rgba(145,231,73,1)) 0%, rgba(240,240,240,1) 5%);
+	background: linear-gradient(0deg, rgba(145,231,73,1) 0%, rgba(240,240,240,1) 5%);
 	cursor: crosshair;
 }
 
@@ -73,8 +73,8 @@ header {
 	min-height: 70px;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	border-top: 3px solid #7be874;
-	border-right: 3px solid #7be874;
+	border-top: 3px solid black;
+	border-right: 3px solid black;
 	border-left: 3px solid transparent;
 	border-radius: 0 20px 0 0;
 	padding-top: 5px;
@@ -86,8 +86,8 @@ header {
 	min-height: 70px;
 	float: left;
 	padding-top: 5px;
-	border-top: 3px solid #7be874;
-	border-right: 3px solid #7be874;
+	border-top: 3px solid black;
+	border-right: 3px solid black;
 	border-radius: 0 20px 0 0;
 	margin-right: 1%;
 }
@@ -99,8 +99,8 @@ header {
 	line-height: 20px;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	padding-top: 5px;
-	border-top: 3px solid #7be874;
-	border-right: 3px solid #7be874;
+	border-top: 3px solid black;
+	border-right: 3px solid black;
 	border-radius: 0 20px 0 0;
 }
 .thing ul {
@@ -118,15 +118,15 @@ header {
 
 .image {
 	width: 99%;
-	border-left: 3px solid #7be874;
-	border-bottom: 3px solid #7be874;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
 	border-radius: 0 0 0 20px;
 	margin-bottom: 50px;
 }
 .artwork {
 	width: 64%;
 	float: left;
-	border-right: 3px solid #7be874;
+	border-right: 3px solid black;
 	text-align: center;
 	margin-right: 1%;
 }
@@ -139,7 +139,7 @@ header {
 
 #bottomcredits {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	color: #7be874;
+	color: black;
 	font-size: 11px;
 	line-height: 18px;
 }
@@ -154,7 +154,8 @@ p {
 .CurRec {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	letter-spacing: 0.5px;
-	color: #7be874;
+	color: black;
+	text-transform: uppercase;
 }
     
 img {
@@ -197,8 +198,8 @@ iframe {
 	padding-right: 50px;
 }
 
-::selection { background: #000; color: slateblue; text-shadow: none; /* Safari */ }
-::-moz-selection { background: #000; color: slateblue; text-shadow: none; /* Firefox */ }
+::selection { background: #91E749; color: black; text-shadow: none; /* Safari */ }
+::-moz-selection { background: #91E749; color: black; text-shadow: none; /* Firefox */ }
 
 
 
@@ -270,7 +271,7 @@ a:active {
 	.artwork {
 		width: 60%;
 		float: left;
-		border-right: 3px solid #7be874;
+		border-right: 3px solid black;
 		text-align: center;
 		margin-right: 1%;
 	}
@@ -342,7 +343,7 @@ a:active {
 	.image {
 		width: 98%;
 		margin-bottom: 40px;
-		border-right: 3px solid #7be874;
+		border-right: 3px solid black;
 		border-radius: 0 0 20px 20px;
 	}
 	.artwork {
