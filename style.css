@@ -188,6 +188,7 @@ img.thirds {
 
 video {
 	width: 95%;
+	border: 0;
 }
 iframe {
 	width: 95%
