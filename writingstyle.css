@@ -48,7 +48,7 @@ header {
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	margin-right: 1%;
-	border:3px solid transparent;
+	border:1px solid transparent;
 	font-size: 1.5em;
 	line-height: 1.2em;
 	letter-spacing: -0.04em;
@@ -78,9 +78,9 @@ header {
 	min-height: 70px;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	border-top: 3px solid black;
-	border-right: 3px solid black;
-	border-left: 3px solid transparent;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid transparent;
 	border-radius: 0 20px 0 0;
 	padding-top: 5px;
 	margin-right: 1%;
@@ -91,16 +91,16 @@ header {
 	min-height: 70px;
 	float: left;
 	padding-top: 5px;
-	border-top: 3px solid black;
-	border-right: 3px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
 	border-radius: 0 20px 0 0;
 }
 
 .content {
 	width: 99%;
 	margin-bottom: 50px;
-	border-left: 3px solid transparent;
-	border-bottom: 3px solid transparent;
+	border-left: 1px solid transparent;
+	border-bottom: 1px solid transparent;
 	border-radius: 0 0 0 20px;
 }
 .writing {
@@ -109,7 +109,7 @@ header {
 	text-align: left;
 	letter-spacing: -0.01px;
 	margin-right: 1%;
-	border-right: 3px solid transparent;
+	border-right: 1px solid transparent;
 }
 .endnotes {
 	width:33%;

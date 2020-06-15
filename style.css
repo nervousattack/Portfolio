@@ -52,7 +52,7 @@ header {
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	margin-right: 1%;
-	border:3px solid transparent;
+	border:1px solid transparent;
 	font-size: 1.5em;
 	line-height: 1.2em;
 	letter-spacing: -0.04em;
@@ -75,9 +75,9 @@ header {
 	min-height: 70px;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	border-top: 3px solid black;
-	border-right: 3px solid black;
-	border-left: 3px solid transparent;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid transparent;
 	border-radius: 0 20px 0 0;
 	padding-top: 5px;
 	margin-right: 1%;
@@ -88,8 +88,8 @@ header {
 	min-height: 70px;
 	float: left;
 	padding-top: 5px;
-	border-top: 3px solid black;
-	border-right: 3px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
 	border-radius: 0 20px 0 0;
 	margin-right: 1%;
 }
@@ -101,8 +101,8 @@ header {
 	line-height: 20px;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	padding-top: 5px;
-	border-top: 3px solid black;
-	border-right: 3px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
 	border-radius: 0 20px 0 0;
 }
 .thing ul {
@@ -120,15 +120,15 @@ header {
 
 .image {
 	width: 99%;
-	border-left: 3px solid black;
-	border-bottom: 3px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	border-radius: 0 0 0 20px;
 	margin-bottom: 50px;
 }
 .artwork {
 	width: 64%;
 	float: left;
-	border-right: 3px solid black;
+	border-right: 1px solid black;
 	text-align: center;
 	margin-right: 1%;
 }
@@ -274,7 +274,7 @@ a:active {
 	.artwork {
 		width: 60%;
 		float: left;
-		border-right: 3px solid black;
+		border-right: 1px solid black;
 		text-align: center;
 		margin-right: 1%;
 	}
@@ -343,7 +343,7 @@ a:active {
 	.image {
 		width: 98%;
 		margin-bottom: 40px;
-		border-right: 3px solid black;
+		border-right: 1px solid black;
 		border-radius: 0 0 20px 20px;
 	}
 	.artwork {
