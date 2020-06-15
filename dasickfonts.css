@@ -227,7 +227,6 @@ html {
 
 body {
 	font-family: "Inferi", Times, serif;
-	font-weight: normal;
 	font-size: 2.1em;
 	line-height: 1.3em;
 	text-align: left;
@@ -244,12 +243,13 @@ div {
 
 #container {
 	width: 99%;
-	margin: 0 auto;
 	margin: 1%;
 }
 
 header {
 	width: 99%;
+	display: inline-block;
+	margin-bottom: 2%;
 }
 
 .headerleft {
@@ -258,6 +258,9 @@ header {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	margin-right: 1%;
 	border:3px solid transparent;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	letter-spacing: -0.04em;
 }
 .headerright {
 	width: 34%;
@@ -450,30 +453,10 @@ a:active {
 		border: 0;
 	}
 	
-
-	img {
-		max-height: initial;
-		max-width: 90%;
-		height: auto;
-	}
-	img.thirds {
-		max-height: 400px;
-	}
-	video {
-		width: 90%;
-		margin: -90px auto;
-	}
-	iframe {
-		width: 90%;
-	}
 }
 
 
 @media screen and (max-width:890px){
-	
-	body {
-		font-size: 1.8em;
-	}
 
 	#container {
 		margin: 2%;
@@ -482,10 +465,13 @@ a:active {
 	
 	.headerleft {
 		width: 100%;
+		font-size: 1.2em;
+		margin-bottom: 3%;
 	}
 	.headerright {
 		width: 100%;
-		font-size: 0.5em;
+		font-size: 0.6em;
+		margin-bottom: 2%;
 	}
 
 	.details {
@@ -508,30 +494,6 @@ a:active {
 		width: 98%;
 		border-right: 3px solid white;
 		border-radius: 0 0 20px 20px;
-	}
-
-	
-	img {
-		max-height: initial;
-		max-width: 90%;
-		height: auto;
-	}
-	img.thirds {
-		max-height: auto;
-		height: auto;
-	}
-	.imagecontainer {
-		flex-wrap: wrap;
-	}
-	video {
-		width: 98%;
-		margin: 0 auto;
-		max-height: initial;
-		height: auto;
-	}
-	iframe {
-		width: 98%;
-		padding: 0;
 	}
 
 

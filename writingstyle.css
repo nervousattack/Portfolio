@@ -20,7 +20,6 @@ html {
 
 body {
 	font-family: "Inferi", Times, serif;
-	font-weight: normal;
 	font-size: 2.1em;
 	line-height: 1.3em;
 	text-align: left;
@@ -35,12 +34,13 @@ body {
 
 #container {
 	width: 99%;
-	margin: 0 auto;
 	margin: 1%;
 }
 
 header {
 	width: 99%;
+	display: inline-block;
+	margin-bottom: 2%;
 }
 
 .headerleft {
@@ -49,6 +49,9 @@ header {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	margin-right: 1%;
 	border:3px solid transparent;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	letter-spacing: -0.04em;
 }
 .headerright {
 	width: 34%;
@@ -61,6 +64,8 @@ header {
 .essays {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	clear: both;
+	display: inline-block;
+	margin-top: 2%;
 }
 
 .details {
@@ -123,8 +128,9 @@ header {
 blockquote { 
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	font-size: 28px;
+	line-height: 36px;
 	margin-right: 4em;
-	margin-left: 2.5em;
+	margin-left: 2em;
 }
 
 .footnote {
@@ -227,6 +233,8 @@ a:active {
 	}
 	.writing {
 		width: 60%;
+		font-size: 27px;
+		line-height: 32px;
 	}
 	.endnotes {
 		width:38%;
@@ -248,10 +256,6 @@ a:active {
 
 @media screen and (max-width:890px){
 	
-	body {
-		font-size: 1.8em;
-	}
-
 	#container {
 		margin: 2%;
 		width: 98%;
@@ -259,10 +263,13 @@ a:active {
 	
 	.headerleft {
 		width: 100%;
+		font-size: 1.2em;
+		margin-bottom: 3%;
 	}
 	.headerright {
 		width: 100%;
-		font-size: 0.5em;
+		font-size: 0.6em;
+		margin-bottom: 2%;
 	}
 
 	.details {
@@ -295,13 +302,14 @@ a:active {
 	}
 
 	blockquote {
-		font-size: 16px;
-		line-height: 24px;
+		font-size: 18px;
+		line-height: 26px;
 		letter-spacing: normal;
+		margin-right: 1.5em;
 	}
 
 	.footnotebottom {
-		font-size: 14px;
+		font-size: 15px;
 	}
 
 }
