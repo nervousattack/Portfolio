@@ -25,9 +25,9 @@ body {
 	text-align: left;
 	color: black;
 	background: rgb(240,240,240);
-	background: -moz-linear-gradient(0deg, rgba(145,231,73,1) 0%, rgba(240,240,240,1) 5%);
-	background: -webkit-linear-gradient(0deg, rgba(145,231,73,1)) 0%, rgba(240,240,240,1) 5%);
-	background: linear-gradient(0deg, rgba(145,231,73,1) 0%, rgba(240,240,240,1) 5%);
+	background: -moz-linear-gradient(0deg, rgba(214,254,2,1) 0%, rgba(240,240,240,1) 5%);
+	background: -webkit-linear-gradient(0deg, rgba(214,254,2,1) 0%, rgba(240,240,240,1) 5%);
+	background: linear-gradient(0deg, rgba(214,254,2,1) 0%, rgba(240,240,240,1) 5%);
 	cursor: crosshair;
 }
 
@@ -201,8 +201,8 @@ iframe {
 	padding-right: 50px;
 }
 
-::selection { background: #91E749; color: black; text-shadow: none; /* Safari */ }
-::-moz-selection { background: #91E749; color: black; text-shadow: none; /* Firefox */ }
+::selection { background: #D6FE02; color: black; text-shadow: none; /* Safari */ }
+::-moz-selection { background: #D6FE02; color: black; text-shadow: none; /* Firefox */ }
 
 
 
