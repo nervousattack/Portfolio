@@ -39,7 +39,7 @@ header {
 }
 
 .headerdivider {
-	background: rgba(214,254,2,1); 
+	background: #ccfe02; 
 	height: 30px; 
 	border-bottom:1px solid black;
 	box-sizing: border-box;
@@ -119,7 +119,7 @@ header {
 }
 
 .itemdivider {
-	background: rgba(214,254,2,1); 
+	background: #ccfe02; 
 	height: 30px; 
 	border-bottom:1px solid black;
 	box-sizing: border-box;
@@ -225,8 +225,8 @@ p {
 }
     
 
-::selection { background: #D6FE02; color: black; text-shadow: none; /* Safari */ }
-::-moz-selection { background: #D6FE02; color: black; text-shadow: none; /* Firefox */ }
+::selection { background: #ccfe02; color: black; text-shadow: none; /* Safari */ }
+::-moz-selection { background: #ccfe02; color: black; text-shadow: none; /* Firefox */ }
 
 
 
@@ -359,7 +359,7 @@ a:active {
 		display: inline-block;
 		float: left;
 		position: static;
-		background: rgba(214,254,2,1);
+		background: #ccfe02;
 		height: auto;
 		border: 0;
 	}
