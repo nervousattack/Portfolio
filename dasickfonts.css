@@ -85,121 +85,70 @@
 
 .Artist {
 	font-family: "ArtistFont";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .Blocks {
 	font-family: "Blocks";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .BoldGod {
 	font-family: "BoldGod";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .ColdIcePlant {
 	font-family: "ColdIcePlant";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .GUY {
 	font-family: "GUY";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .Immortalist {
 	font-family: "Immortalist";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .MudClub {
 	font-family: "MudClub";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .Orchard {
 	font-family: "Orchard";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:60px;
 }
 
 .Pringip {
 	font-family: "Pringip";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .Scribble {
 	font-family: "Scribble";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .Slash {
 	font-family: "Slash";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .SlowScript {
 	font-family: "SlowScript";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .Squarevetica {
 	font-family: "Squarevetica";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .TimeStamp {
 	font-family: "TimeStamp";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .Womb1 {
 	font-family: "Womb1";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .Womb2 {
 	font-family: "Womb2";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 .Wreckage {
 	font-family: "Wreckage";
-	font-size: 130px;
-	font-weight: normal;
-	margin-bottom:50px;
 }
 
 
@@ -227,122 +176,175 @@ html {
 
 body {
 	font-family: "Inferi", Times, serif;
-	font-size: 2.1em;
-	line-height: 1.3em;
 	text-align: left;
-	color: white;
-	background: slateblue;
+	color: black;
+	background: rgba(214,254,2,1);
 	cursor: crosshair;
 }
 
-div {
-	width: 100%;
-	float: left;
-}
-
-
-#container {
-	width: 99%;
-	margin: 1%;
-}
-
 header {
-	width: 99%;
+	width: 20%;
 	display: inline-block;
-	margin-bottom: 2%;
+	float: left;
+	position: fixed;
+	right: 0;
+	top:0;
+	background: rgb(240,240,240);
+	height: 100vh;
+	border-left: 1px solid black;
 }
 
-.headerleft {
-	width: 64%;
-	float: left;
-	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	margin-right: 1%;
-	border:1px solid transparent;
-	font-size: 1.5em;
-	line-height: 1.2em;
-	letter-spacing: -0.04em;
-}
-.headerright {
-	width: 34%;
-	float: left;
-	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	font-size: 15px;
-	line-height: 20px;
-}
-
-.details {
-	width: 99%;
-	height: 70px;
-	margin-bottom: 15px;
-}
-.name {
-	width: 64%;
-	min-height: 70px;
-	float: left;
-	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	border-top: 1px solid white;
-	border-right: 1px solid white;
-	border-left: 1px solid transparent;
-	border-radius: 0 20px 0 0;
-	padding-top: 5px;
-	margin-right: 1%;
-}
-.DL {
-	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	width: 34%;
-	min-height: 70px;
-	float: left;
-	padding-top: 5px;
-	border-top: 1px solid white;
-	border-right: 1px solid white;
-	border-radius: 0 20px 0 0;
-}
-
-
-.image {
-	width: 99%;
-	border-left: 1px solid white;
-	border-bottom: 1px solid white;
-	border-radius: 0 0 0 20px;
-	margin-bottom: 50px;
-}
-.sampletext {
+.headerdivider {
+	background: rgba(214,254,2,1); 
+	height: 30px; 
+	border-bottom:1px solid black;
+	box-sizing: border-box;
 	width: 100%;
-	text-align: left;
-	line-height: normal;
-	padding-left: 1%;
+	float: left;
+}
+
+.menucontain {
+	width: 100%;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
+.menuitem100 {
+	width: 100%;
+	float: left;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	font-size: 1.3em;
+	border-bottom: 1px solid black;
+	box-sizing: border-box;
+	padding: 2%;
+}
+.menuitem50 {
+	width: 50%;
+	float: left;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	font-size: 1.3em;
+	border-bottom: 1px solid black;
+	box-sizing: border-box;
+	padding: 2%;
+}
+.menuitembio {
+	width: 100%;
+	float: left;
+	font-family: "Inferi", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	border-bottom: 1px solid black;
+	box-sizing: border-box;
+	padding: 2%;
 }
 
 #bottomcredits {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	color: white;
-	font-size: 11px;
-	line-height: 18px;
+	color: black;
+	font-size: 9px;
+	line-height: 14px;
+	padding-left: 2%;
+	position: absolute;
+	bottom: 5px;
 }
 
-#difference {
-	mix-blend-mode: difference;
+.essays {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	width: 100%;
-	height: 200px;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	z-index: 9999;
-	pointer-events: none;
-	background-image: linear-gradient(to bottom, rgba(137, 255, 129, 0), rgba(214,254,2, 1) 100%);
+	float: left;
+	font-size: 15px;
+	line-height: 20px;
+	border-bottom: 1px solid black;
+	box-sizing: border-box;
+	padding: 2%;
 }
+
+#projects {
+	width: 80%;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.item {
+	width: 100%;
+	float: left;
+	border-bottom:1px solid black;
+	box-sizing: border-box;
+}
+
+.itemdivider {
+	background: rgb(240,240,240); 
+	height: 30px; 
+	border-bottom:1px solid black;
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+}
+
+
+.details {
+	width: 100%;
+	float: left;
+	height: 70px;
+	box-sizing: border-box;
+}
+.name {
+	width: 69%;
+	height: 70px;
+	float: left;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	padding-top: 5px;
+	margin-right: 1%;
+	padding-left: 1%;
+	box-sizing: border-box;
+	font-size: 2em;
+	line-height: 1.3em;
+}
+.DL {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	width: 29%;
+	height: 70px;
+	float: left;
+	padding-top: 5px;
+	margin-right: 1%;
+	border-left: 1px solid black;
+	padding-left: 1%;
+	box-sizing: border-box;
+	font-size: 2em;
+	line-height: 1.3em;
+}
+
+
+.image {
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+.sampletext {
+	width: 100%;
+	text-align: left;
+	padding-left: 1%;
+	padding-top: 1%;
+	font-size: 130px;
+	font-weight: normal;
+	line-height: normal;
+	margin-bottom: 50px;
+}
+
+
 
 /* STYLE --------------- */
 
 p {
-	margin: 0 0 1em 0;
+	margin: 0;
 }
 
 .CurRec {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	letter-spacing: 0.5px;
-	color: white;
-	text-transform: uppercase;
+	font-size: 15px;
+	color: black;
 }
     
 img {
@@ -395,17 +397,17 @@ iframe {
 
 a:link {
 	text-decoration:none;
-	color: black;
+	color: slateblue;
 }
 
 a:visited {
 	text-decoration:none;
-	color: black;
+	color: slateblue;
 }
 
 a:hover{
 	text-decoration:none;
-	color: black;
+	color: slateblue;
 	text-shadow: 0px 0px 10px black;
 	-webkit-filter: blur(4px);
     filter: blur(4px);
@@ -414,177 +416,165 @@ a:hover{
 
 a:active {
 	text-decoration:none;
-	color: black;
+	color: slateblue;
 }
 
 
 
 /* RESPONSIVE ----------------------------- */
-@media screen and (max-width:1220px){
-	body {
-		font-size: 1.6em;
-	}
+@media screen and (max-width:1400px){
 
-	.headerleft {
-		width: 60%;
-	}
-	.headerright {
-		width: 36%;
-	}
-
-	.details {
-		width: 99%;
-		height: 55px;
-		margin-bottom: 20px;
-	}
 	.name {
-		width: 60%;
-		min-height: 55px;
+		font-size: 1.7em;
 	}
 	.DL {
-		width: 36%;
-		min-height: 55px;
-	}
-
-	.image {
-		width: 99%;
-	}
-	.sampletext {
-		border: 0;
+		font-size: 1.7em;
 	}
 	
+	.content {
+		font-size: 27px;
+		line-height: 32px;
+	}
+
+	blockquote {
+		font-size: 22px;
+		line-height: 32px;
+		letter-spacing: normal;
+		margin-right: 60px;
+	}
+
+	.footnote {
+		font-size: 13px;
+		letter-spacing: 1px;
+		padding: .15em .15em .05em .2em;
+	}
+
+	.sampletext {
+		font-size: 120px;
+	}
+
 }
 
-
-@media screen and (max-width:890px){
-
-	#container {
-		margin: 2%;
-		width: 98%;
+@media screen and (max-width:1250px){
+	.menuitem100 {
+		font-size: 1.1em;
 	}
-	
-	.headerleft {
-		width: 100%;
-		font-size: 1.2em;
-		margin-bottom: 3%;
+	.menuitem50 {
+		font-size: 1.1em;
 	}
-	.headerright {
-		width: 100%;
-		font-size: 0.6em;
-		margin-bottom: 2%;
+	.menuitembio {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.sampletext {
+		font-size: 100px;
+	}
+
+}
+
+@media screen and (max-width:1060px) , screen and (max-height: 770px){
+	header {
+		overflow: scroll;
+	}
+
+	.menuitem100 {
+		font-size: 1em;
+	}
+	.menuitem50 {
+		font-size: 1em;
+	}
+	.menuitembio {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	#bottomcredits {
+		bottom: 0;
+		height: auto;
+		padding-left: 2%;
+		position: static;
+		border-bottom: 1px solid black;
 	}
 
 	.details {
-		width: 98%;
 		height: auto;
-		margin-bottom: 10px;
+		border-bottom: 1px solid black;
 	}
 	.name {
 		width: 100%;
-		min-height: 55px;
-		margin-bottom: 10px;
+		height: 55px;
+		border-bottom: 1px solid black;
+		font-size: 2em;
 	}
 	.DL {
 		width: 100%;
-		min-height: 55px;
-		padding-left: 0.5%;
+		height: 55px;
+		font-size: 2em;
+		border-left: 0;
 	}
 
-	.image {
-		width: 98%;
-		border-right: 1px solid white;
-		border-radius: 0 0 20px 20px;
+}
+
+@media screen and (max-width:900px){
+	header {
+		width: 100%;
+		display: inline-block;
+		float: left;
+		position: static;
+		background: rgba(214,254,2,1);
+		height: auto;
+		border: 0;
+	}
+	.headerdivider {
+		display: none;
+	}
+	.menucontain {
+		width: 100%;
+		font-family: "BallPill", Helvetica, Arial, sans-serif;
+		box-sizing: border-box;
+	}
+	.menuitem100 {
+		font-size: 1.5em;
+	}
+	.menuitem50 {
+		font-size: 1.5em;
+	}
+	.menuitembio {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.essays {
+		font-size: 20px;
+		line-height: 24px;
 	}
 
+	#projects {
+		width: 100%;
+		position: static;
+	}
 
+	.details {
+		height: auto;
+		border-bottom: 1px solid black;
+	}
+	.name {
+		width: 100%;
+		height: 50px;
+		border-bottom: 1px solid black;
+		font-size: 1.5em;
+	}
+	.DL {
+		width: 100%;
+		height: 50px;
+		border-left: 0;
+		font-size: 1.5em;
+	}
 
+	.CurRec {
+		font-size: 18px;
+	}
 
-	.Artist {
+	.sampletext {
 		font-size: 50px;
-		margin-bottom:20px;
+		margin-bottom: 30px;
 	}
-
-	.Blocks {
-		font-size: 50px;
-		margin-bottom:20px;
-	}
-
-	.BoldGod {
-		font-size: 50px;
-		margin-bottom:20px;
-	}
-
-	.ColdIcePlant {
-		font-size: 50px;
-		margin-bottom:20px;
-	}
-
-	.GUY {
-		font-size: 50px;
-		margin-bottom:40px;
-	}
-
-	.Immortalist {
-		font-size: 50px;
-		margin-bottom:40px;
-	}
-
-	.MudClub {
-		font-size: 50px;
-		margin-bottom:30px;
-	}
-
-	.Orchard {
-		font-size: 50px;
-		margin-bottom:40px;
-	}
-
-	.Pringip {
-		font-size: 50px;
-		margin-bottom:20px;
-		line-height: normal;
-	}
-
-	.Scribble {
-		font-size: 50px;
-		margin-bottom:20px;
-		line-height: normal;
-	}
-
-	.Slash {
-		font-size: 50px;
-		margin-bottom:20px;
-	}
-
-	.SlowScript {
-		font-size: 50px;
-		margin-bottom:30px;
-	}
-
-	.Squarevetica {
-		font-size: 50px;
-		margin-bottom:30px;
-	}
-
-	.TimeStamp {
-		font-size: 50px;
-		margin-bottom:20px;
-	}
-
-	.Womb1 {
-		font-size: 50px;
-		margin-bottom:0;
-	}
-
-	.Womb2 {
-		font-size: 50px;
-		margin-bottom:40px;
-	}
-
-	.Wreckage {
-		font-size: 50px;
-		margin-bottom:30px;
-		line-height: normal;
-	}
-
 }

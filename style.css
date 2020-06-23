@@ -20,90 +20,144 @@ html {
 
 body {
 	font-family: "Inferi", Times, serif;
-	font-size: 2.1em;
-	line-height: 1.3em;
 	text-align: left;
 	color: black;
 	background: rgb(240,240,240);
-	background: -moz-linear-gradient(0deg, rgba(214,254,2,1) 0%, rgba(240,240,240,1) 5%);
-	background: -webkit-linear-gradient(0deg, rgba(214,254,2,1) 0%, rgba(240,240,240,1) 5%);
-	background: linear-gradient(0deg, rgba(214,254,2,1) 0%, rgba(240,240,240,1) 5%);
 	cursor: crosshair;
 }
 
-div {
+header {
+	width: 20%;
+	display: inline-block;
+	float: left;
+	position: fixed;
+	right: 0;
+	top:0;
+	background: rgb(240,240,240);
+	height: 100vh;
+	border-left: 1px solid black;
+}
+
+.headerdivider {
+	background: rgba(214,254,2,1); 
+	height: 30px; 
+	border-bottom:1px solid black;
+	box-sizing: border-box;
 	width: 100%;
 	float: left;
 }
 
-#container {
-	width: 99%;
-	margin: 1%;
+.menucontain {
+	width: 100%;
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
 }
-
-header {
-	width: 99%;
-	display: inline-block;
-	margin-bottom: 2%;
-}
-
-.headerleft {
-	width: 64%;
+.menuitem100 {
+	width: 100%;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	margin-right: 1%;
-	border:1px solid transparent;
-	font-size: 1.5em;
-	line-height: 1.2em;
-	letter-spacing: -0.04em;
+	font-size: 1.3em;
+	border-bottom: 1px solid black;
+	box-sizing: border-box;
+	padding: 2%;
 }
-.headerright {
-	width: 34%;
+.menuitem50 {
+	width: 50%;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	font-size: 15px;
+	font-size: 1.3em;
+	border-bottom: 1px solid black;
+	box-sizing: border-box;
+	padding: 2%;
+}
+.menuitembio {
+	width: 100%;
+	float: left;
+	font-family: "Inferi", Helvetica, Arial, sans-serif;
+	font-size: 18px;
 	line-height: 20px;
+	border-bottom: 1px solid black;
+	box-sizing: border-box;
+	padding: 2%;
+}
+
+#bottomcredits {
+	font-family: "BallPill", Helvetica, Arial, sans-serif;
+	color: black;
+	font-size: 9px;
+	line-height: 14px;
+	padding-left: 2%;
+	position: absolute;
+	bottom: 5px;
+}
+
+#projects {
+	width: 80%;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.item {
+	width: 100%;
+	float: left;
+	border-bottom:1px solid black;
+	box-sizing: border-box;
+}
+
+.itemdivider {
+	background: rgba(214,254,2,1); 
+	height: 30px; 
+	border-bottom:1px solid black;
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
 }
 
 .details {
-	width: 99%;
+	width: 100%;
+	float: left;
 	height: 70px;
-	margin-bottom: 15px;
+	box-sizing: border-box;
 }
 .name {
-	width: 64%;
-	min-height: 70px;
+	width: 63%;
+	height: 70px;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	border-top: 1px solid black;
-	border-right: 1px solid black;
-	border-left: 1px solid transparent;
-	border-radius: 0 20px 0 0;
 	padding-top: 5px;
 	margin-right: 1%;
+	padding-left: 1%;
+	box-sizing: border-box;
+	font-size: 2em;
+	line-height: 1.3em;
 }
 .year {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	width: 19%;
-	min-height: 70px;
+	width: 17%;
+	height: 70px;
 	float: left;
 	padding-top: 5px;
-	border-top: 1px solid black;
-	border-right: 1px solid black;
-	border-radius: 0 20px 0 0;
 	margin-right: 1%;
+	border-left: 1px solid black;
+	padding-left: 1%;
+	box-sizing: border-box;
+	font-size: 2em;
+	line-height: 1.3em;
 }
 .thing {
-	width: 14%;
-	min-height: 70px;
+	width: 17%;
+	height: 70px;
 	float: left;
 	font-size: 14px;
 	line-height: 20px;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	padding-top: 5px;
-	border-top: 1px solid black;
-	border-right: 1px solid black;
-	border-radius: 0 20px 0 0;
+	border-left: 1px solid black;
+	padding-left: 1%;
+	box-sizing: border-box;
 }
 .thing ul {
     list-style: none;
@@ -119,31 +173,25 @@ header {
 }
 
 .image {
-	width: 99%;
-	border-left: 1px solid black;
-	border-bottom: 1px solid black;
-	border-radius: 0 0 0 20px;
-	margin-bottom: 50px;
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
 }
 .artwork {
-	width: 64%;
+	width: 63%;
 	float: left;
 	border-right: 1px solid black;
 	text-align: center;
 	margin-right: 1%;
+	padding-left: 1%;
+	padding-top: 1%;
 }
 .description {
-	width:33%;
+	width:34%;
 	float: left;
 	font-size: 27px;
 	line-height: 32px;
-}
-
-#bottomcredits {
-	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	color: black;
-	font-size: 11px;
-	line-height: 18px;
+	padding-top: 1%;
 }
 
 
@@ -155,9 +203,8 @@ p {
 
 .CurRec {
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	letter-spacing: 0.5px;
+	font-size: 15px;
 	color: black;
-	text-transform: uppercase;
 }
     
 img {
@@ -179,7 +226,7 @@ img.shadow {
 
 img.thirds {
 	float: left;
-	max-height: 650px;
+	max-height: 575px;
 }
 
 .imagecontainer {
@@ -236,64 +283,36 @@ a:active {
 
 
 /* RESPONSIVE ----------------------------- */
-@media screen and (max-width:1220px){
-	body {
-		font-size: 1.6em;
-	}
+@media screen and (max-width:1400px){
 
-	.headerleft {
-		width: 60%;
-	}
-	.headerright {
-		width: 36%;
-	}
-
-	.details {
-		width: 99%;
-		height: 55px;
-		margin-bottom: 20px;
-	}
 	.name {
-		width: 60%;
-		min-height: 55px;
+		font-size: 1.7em;
 	}
 	.year {
-		width: 18%;
-		min-height: 55px;
+		font-size: 1.7em;
 	}
 	.thing {
-		width: 18%;
 		min-height: 55px;
-		font-size: 11px;
-		line-height: 16px;
+		font-size: 13px;
+		line-height: 18px;
 	}
 
-	.image {
-		width: 99%;
-	}
-	.artwork {
-		width: 60%;
-		float: left;
-		border-right: 1px solid black;
-		text-align: center;
-		margin-right: 1%;
-	}
 	.description {
-		width:36%;
-		float: left;
+		font-size: 22px;
+		line-height: 27px;
 	}
-
+	
 	img {
 		max-height: initial;
-		max-width: 90%;
+		max-width: 95%;
 		height: auto;
 	}
 	img.thirds {
-		max-height: 400px;
+		max-height: 500px;
 	}
 	video {
 		width: 90%;
-		margin: -90px auto;
+		height: 90%;
 	}
 	iframe {
 		width: 90%;
@@ -301,65 +320,119 @@ a:active {
 }
 
 
-@media screen and (max-width:890px){
+@media screen and (max-width:1250px){
+	.menuitem100 {
+		font-size: 1.1em;
+	}
+	.menuitem50 {
+		font-size: 1.1em;
+	}
+	.menuitembio {
+		font-size: 18px;
+		line-height: 20px;
+	}
 
-	#container {
-		margin: 2%;
-		width: 98%;
+
+	.name {
+		font-size: 1.7em;
+	}
+	.year {
+		font-size: 1.7em;
+	}
+	.thing {
+		min-height: 55px;
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.description {
+		font-size: 22px;
+		line-height: 27px;
 	}
 	
-	.headerleft {
-		width: 100%;
-		font-size: 1.2em;
-		margin-bottom: 3%;
+	img {
+		max-height: initial;
+		max-width: 95%;
+		height: auto;
 	}
-	.headerright {
-		width: 100%;
-		font-size: 0.6em;
-		margin-bottom: 2%;
+	img.thirds {
+		max-height: 400px;
+	}
+	video {
+		width: 90%;
+		height: 90%;
+	}
+	iframe {
+		width: 90%;
+	}
+}
+
+
+@media screen and (max-width:1060px) , screen and (max-height: 770px){
+	header {
+		overflow: scroll;
+	}
+
+	.menuitem100 {
+		font-size: 1em;
+	}
+	.menuitem50 {
+		font-size: 1em;
+	}
+	.menuitembio {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	#bottomcredits {
+		bottom: 0;
+		height: auto;
+		padding-left: 2%;
+		position: static;
+		border-bottom: 1px solid black;
 	}
 
 	.details {
-		width: 100%;
 		height: auto;
-		margin-bottom: 10px;
+		border-bottom: 1px solid black;
 	}
 	.name {
-		width: 98%;
-		min-height: 55px;
-		margin-bottom: 10px;
+		width: 100%;
+		height: 55px;
+		border-bottom: 1px solid black;
+		font-size: 2em;
 	}
 	.year {
 		width: 49%;
-		min-height: 55px;
+		height: 75px;
+		border-left: 0;
+		font-size: 2em;
 	}
 	.thing {
-		width: 48%;
-		min-height: 55px;
-		font-size: 11px;
-		line-height: 16px;
+		width: 49%;
+		height: 75px;
+		font-size: 14px;
+		line-height: 20px;
 	}
 
 	.image {
-		width: 98%;
-		margin-bottom: 40px;
-		border-right: 1px solid black;
-		border-radius: 0 0 20px 20px;
+		width: 100%;
 	}
 	.artwork {
 		width: 100%;
 		height: auto;
+		padding: 1% 0;
+		margin: 0;
 	}
 	.description {
 		width:98%;
 		float: left;
-		font-size: 22px;
-		line-height: 26px;
-		padding: 2%;
+		font-size: 27px;
+		line-height: 32px;
+		padding: 1%;
 	}
 	img {
 		max-height: initial;
-		max-width: 90%;
+		max-width: 95%;
 		height: auto;
 	}
 	img.thirds {
@@ -370,7 +443,117 @@ a:active {
 		flex-wrap: wrap;
 	}
 	video {
+		width: 95%;
+		margin: 0 auto;
+		max-height: initial;
+		height: auto;
+	}
+	iframe {
 		width: 98%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width:900px){
+	header {
+		width: 100%;
+		display: inline-block;
+		float: left;
+		position: static;
+		background: rgba(214,254,2,1);
+		height: auto;
+		border: 0;
+	}
+	.headerdivider {
+		display: none;
+	}
+	.menucontain {
+		width: 100%;
+		font-family: "BallPill", Helvetica, Arial, sans-serif;
+		box-sizing: border-box;
+	}
+	.menuitem100 {
+		font-size: 1.5em;
+	}
+	.menuitem50 {
+		font-size: 1.5em;
+	}
+	.menuitembio {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	#bottomcredits {
+		bottom: 0;
+		height: auto;
+		padding-left: 2%;
+		position: static;
+		border-bottom: 1px solid black;
+	}
+
+	#projects {
+		width: 100%;
+		position: static;
+	}
+
+	.details {
+		height: auto;
+		border-bottom: 1px solid black;
+	}
+	.name {
+		width: 100%;
+		min-height: 55px;
+		height: auto;
+		border-bottom: 1px solid black;
+		font-size: 1.5em;
+	}
+	.year {
+		width: 49%;
+		height: 75px;
+		border-left: 0;
+		font-size: 1.5em;
+	}
+	.thing {
+		width: 49%;
+		height: 75px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.image {
+		width: 100%;
+	}
+	.artwork {
+		width: 100%;
+		height: auto;
+		padding: 1% 0;
+		margin: 0;
+	}
+	.description {
+		width:98%;
+		float: left;
+		font-size: 23px;
+		line-height: 28px;
+		padding: 1%;
+	}
+
+
+	.CurRec {
+		font-size: 18px;
+	}
+	img {
+		max-height: initial;
+		max-width: 95%;
+		height: auto;
+	}
+	img.thirds {
+		max-height: initial;
+		height: auto;
+	}
+	.imagecontainer {
+		flex-wrap: wrap;
+	}
+	video {
+		width: 95%;
 		margin: 0 auto;
 		max-height: initial;
 		height: auto;
