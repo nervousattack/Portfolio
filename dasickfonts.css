@@ -189,7 +189,7 @@ header {
 	position: fixed;
 	right: 0;
 	top:0;
-	background: rgb(240,240,240);
+	background: rgb(220,221,220);
 	height: 100vh;
 	border-left: 1px solid black;
 }
@@ -275,7 +275,7 @@ header {
 }
 
 .itemdivider {
-	background: rgb(240,240,240); 
+	background: rgb(220,221,220); 
 	height: 30px; 
 	border-bottom:1px solid black;
 	box-sizing: border-box;

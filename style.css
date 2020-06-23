@@ -22,7 +22,7 @@ body {
 	font-family: "Inferi", Times, serif;
 	text-align: left;
 	color: black;
-	background: rgb(240,240,240);
+	background: rgb(220,221,220);
 	cursor: crosshair;
 }
 
@@ -33,7 +33,7 @@ header {
 	position: fixed;
 	right: 0;
 	top:0;
-	background: rgb(240,240,240);
+	background: rgb(220,221,220);
 	height: 100vh;
 	border-left: 1px solid black;
 }
