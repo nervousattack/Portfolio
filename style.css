@@ -27,15 +27,12 @@ body {
 }
 
 header {
-	width: 20%;
-	display: inline-block;
+	width: 100%;
 	float: left;
-	position: fixed;
-	right: 0;
-	top:0;
-	background: rgb(220,221,220);
-	height: 100vh;
-	border-left: 1px solid black;
+	background: #ccfe02;
+	border-bottom: 1px solid black;
+	font-size: 1.3em;
+	box-sizing: border-box;
 }
 
 .headerdivider {
@@ -48,37 +45,48 @@ header {
 }
 
 .menucontain {
-	width: 100%;
+	width: 25%;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
 	box-sizing: border-box;
+	float: left;
 }
-.menuitem100 {
+.menuitemL, .menuitemR {
 	width: 100%;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	font-size: 1.3em;
 	border-bottom: 1px solid black;
+	border-left: 1px solid black;
 	box-sizing: border-box;
-	padding: 2%;
+	padding: .3em;
 }
 .menuitem50 {
-	width: 50%;
+	width: 100%;
 	float: left;
 	font-family: "BallPill", Helvetica, Arial, sans-serif;
-	font-size: 1.3em;
 	border-bottom: 1px solid black;
 	box-sizing: border-box;
-	padding: 2%;
+	padding: .3em;
 }
 .menuitembio {
 	width: 100%;
 	float: left;
 	font-family: "Inferi", Helvetica, Arial, sans-serif;
 	font-size: 18px;
-	line-height: 20px;
-	border-bottom: 1px solid black;
+	line-height: 21px;
 	box-sizing: border-box;
-	padding: 2%;
+	padding: .3em;
+}
+.menu25 {
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	display: block;
+}
+.menu75 {
+	width: 75%;
+	float: left;
+	border-left: 1px solid black;
+	box-sizing: border-box;
 }
 
 #bottomcredits {
@@ -86,18 +94,14 @@ header {
 	color: black;
 	font-size: 9px;
 	line-height: 14px;
-	padding-left: 2%;
-	position: absolute;
-	bottom: 5px;
+	padding: .3em;
+	width: 100%;
+	float: left;
 }
 
 #projects {
-	width: 80%;
+	width: 100%;
 	float: left;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
 }
 
 .item {
@@ -240,7 +244,7 @@ video {
 	border: 0;
 }
 iframe {
-	width: 90%
+	width: 95%
 	margin:0 auto;
 }
 
@@ -284,19 +288,7 @@ a:active {
 
 /* RESPONSIVE ----------------------------- */
 @media screen and (max-width:1400px){
-
-	.name {
-		font-size: 1.7em;
-	}
-	.year {
-		font-size: 1.7em;
-	}
-	.thing {
-		min-height: 55px;
-		font-size: 13px;
-		line-height: 18px;
-	}
-
+	
 	.description {
 		font-size: 22px;
 		line-height: 27px;
@@ -310,29 +302,11 @@ a:active {
 	img.thirds {
 		max-height: 500px;
 	}
-	video {
-		width: 90%;
-		height: 90%;
-	}
-	iframe {
-		width: 90%;
-	}
 }
 
 
 @media screen and (max-width:1250px){
-	.menuitem100 {
-		font-size: 1.1em;
-	}
-	.menuitem50 {
-		font-size: 1.1em;
-	}
-	.menuitembio {
-		font-size: 18px;
-		line-height: 20px;
-	}
-
-
+	
 	.name {
 		font-size: 1.7em;
 	}
@@ -358,38 +332,13 @@ a:active {
 	img.thirds {
 		max-height: 400px;
 	}
-	video {
-		width: 90%;
-		height: 90%;
-	}
 	iframe {
 		width: 90%;
 	}
 }
 
 
-@media screen and (max-width:1060px) , screen and (max-height: 770px){
-	header {
-		overflow: scroll;
-	}
-
-	.menuitem100 {
-		font-size: 1em;
-	}
-	.menuitem50 {
-		font-size: 1em;
-	}
-	.menuitembio {
-		font-size: 18px;
-		line-height: 20px;
-	}
-	#bottomcredits {
-		bottom: 0;
-		height: auto;
-		padding-left: 2%;
-		position: static;
-		border-bottom: 1px solid black;
-	}
+@media screen and (max-width:1060px){
 
 	.details {
 		height: auto;
@@ -438,6 +387,7 @@ a:active {
 	img.thirds {
 		max-height: auto;
 		height: auto;
+		max-width: 99%;
 	}
 	.imagecontainer {
 		flex-wrap: wrap;
@@ -454,16 +404,7 @@ a:active {
 	}
 }
 
-@media screen and (max-width:900px){
-	header {
-		width: 100%;
-		display: inline-block;
-		float: left;
-		position: static;
-		background: #ccfe02;
-		height: auto;
-		border: 0;
-	}
+@media screen and (max-width:950px){
 	.headerdivider {
 		display: none;
 	}
@@ -472,27 +413,26 @@ a:active {
 		font-family: "BallPill", Helvetica, Arial, sans-serif;
 		box-sizing: border-box;
 	}
-	.menuitem100 {
-		font-size: 1.5em;
+	.menuitemL, .menuitemR {
+		width: 50%;
 	}
-	.menuitem50 {
-		font-size: 1.5em;
+	.menuitemL {
+		border-left: 0;
 	}
 	.menuitembio {
 		font-size: 20px;
 		line-height: 24px;
 	}
-	#bottomcredits {
-		bottom: 0;
-		height: auto;
-		padding-left: 2%;
-		position: static;
-		border-bottom: 1px solid black;
+	.menu25 {
+		display: none;
+	}
+	.menu75 {
+		border:0;
+		width: 100%;
 	}
 
 	#projects {
 		width: 100%;
-		position: static;
 	}
 
 	.details {
@@ -548,6 +488,7 @@ a:active {
 	img.thirds {
 		max-height: initial;
 		height: auto;
+		width: 98%;
 	}
 	.imagecontainer {
 		flex-wrap: wrap;
