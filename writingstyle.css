@@ -364,6 +364,10 @@ a:active {
 		width: 100%;
 	}
 
+	.endnotes {
+		width: 100%;
+	}
+
 	.details {
 		height: auto;
 		border-bottom: 1px solid black;
