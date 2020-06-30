@@ -374,7 +374,8 @@ a:active {
 	}
 	.name {
 		width: 100%;
-		height: 50px;
+		min-height: 50px;
+		height: auto;
 		border-bottom: 1px solid black;
 		font-size: 1.5em;
 	}
