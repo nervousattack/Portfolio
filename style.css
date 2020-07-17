@@ -212,7 +212,6 @@ p {
 }
     
 img {
-	max-height: initial;
 	max-width: 90%;
 	height: auto;
 	padding: 0;
@@ -295,7 +294,6 @@ a:active {
 	}
 	
 	img {
-		max-height: initial;
 		max-width: 95%;
 		height: auto;
 	}
@@ -325,7 +323,6 @@ a:active {
 	}
 	
 	img {
-		max-height: initial;
 		max-width: 95%;
 		height: auto;
 	}
@@ -380,12 +377,11 @@ a:active {
 		padding: 1%;
 	}
 	img {
-		max-height: initial;
 		max-width: 95%;
 		height: auto;
 	}
 	img.thirds {
-		max-height: auto;
+		max-height: none;
 		height: auto;
 		max-width: 99%;
 	}
@@ -395,7 +391,7 @@ a:active {
 	video {
 		width: 95%;
 		margin: 0 auto;
-		max-height: initial;
+		max-height: none;
 		height: auto;
 	}
 	iframe {
@@ -463,6 +459,7 @@ a:active {
 		width: 100%;
 	}
 	.artwork {
+		border-right: none;
 		width: 100%;
 		height: auto;
 		padding: 1% 0;
@@ -481,12 +478,11 @@ a:active {
 		font-size: 18px;
 	}
 	img {
-		max-height: initial;
 		max-width: 95%;
 		height: auto;
 	}
 	img.thirds {
-		max-height: initial;
+		max-height: none;
 		height: auto;
 		width: 98%;
 	}
@@ -496,7 +492,7 @@ a:active {
 	video {
 		width: 95%;
 		margin: 0 auto;
-		max-height: initial;
+		max-height: none;
 		height: auto;
 	}
 	iframe {
