@@ -229,7 +229,7 @@ img.shadow {
 
 img.thirds {
 	float: left;
-	max-height: 575px;
+	max-height: 570px;
 }
 
 .imagecontainer {
@@ -382,7 +382,6 @@ a:active {
 	}
 	img.thirds {
 		max-height: none;
-		height: auto;
 		max-width: 99%;
 	}
 	.imagecontainer {
@@ -483,7 +482,6 @@ a:active {
 	}
 	img.thirds {
 		max-height: none;
-		height: auto;
 		width: 98%;
 	}
 	.imagecontainer {
