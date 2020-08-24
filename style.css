@@ -1,12 +1,14 @@
 @font-face {
     font-family: "Inferi";
-    src: url(fonts/Inferi-ExtraLight.otf);
+    src: url(fonts/Inferi-Normal.woff);
+    src: url(fonts/Inferi-Normal.woff2);
 }
 
 @font-face {
     font-family: "Inferi";
     font-style: italic;
-    src: url(fonts/Inferi-ExtraLightItalic.otf);
+    src: url(fonts/Inferi-NormalItalic.woff);
+    src: url(fonts/Inferi-NormalItalic.woff2);
 }
 
 @font-face {
