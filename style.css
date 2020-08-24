@@ -76,6 +76,7 @@ header {
 	line-height: 21px;
 	box-sizing: border-box;
 	padding: .3em;
+	letter-spacing: .02em;
 }
 .menu25 {
 	width: 25%;
@@ -419,6 +420,7 @@ a:active {
 	.menuitembio {
 		font-size: 20px;
 		line-height: 24px;
+		letter-spacing: normal;
 	}
 	.menu25 {
 		display: none;
