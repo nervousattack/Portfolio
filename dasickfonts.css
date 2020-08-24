@@ -156,15 +156,15 @@
 
 @font-face {
     font-family: "Inferi";
-    src: url(fonts/Inferi-Normal.woff);
-    src: url(fonts/Inferi-Normal.woff2);
+    src: url(fonts/Inferi-ExtraLight.woff);
+    src: url(fonts/Inferi-ExtraLight.woff2);
 }
 
 @font-face {
     font-family: "Inferi";
     font-style: italic;
-    src: url(fonts/Inferi-NormalItalic.woff);
-    src: url(fonts/Inferi-NormalItalic.woff2);
+    src: url(fonts/Inferi-ExtraLightItalic.woff);
+    src: url(fonts/Inferi-ExtraLightItalic.woff2);
 }
 
 @font-face {
