@@ -206,8 +206,8 @@ hr {
 	padding-right: 50px;
 }
 
-::selection { background: #ccfe02; color: black; text-shadow: none; /* Safari */ }
-::-moz-selection { background: #ccfe02; color: black; text-shadow: none; /* Firefox */ }
+::selection { background: slateblue; color: black; text-shadow: none; /* Safari */ }
+::-moz-selection { background: slateblue; color: black; text-shadow: none; /* Firefox */ }
 
 
 
