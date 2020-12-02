@@ -155,21 +155,22 @@
 /* Other shit ----------- */
 
 @font-face {
-    font-family: "Inferi";
-    src: url(fonts/Inferi-ExtraLight.woff);
-    src: url(fonts/Inferi-ExtraLight.woff2);
-}
+  font-family: "Simula";
+  src: url(fonts/Simula-Book.otf); }
 
 @font-face {
-    font-family: "Inferi";
-    font-style: italic;
-    src: url(fonts/Inferi-ExtraLightItalic.woff);
-    src: url(fonts/Inferi-ExtraLightItalic.woff2);
-}
+  font-family: "Simula";
+  font-style: italic;
+  src: url(fonts/Simula-BookItalic.otf); }
 
 @font-face {
     font-family: "BallPill";
     src: url(fonts/BallPill-regular.otf);
+}
+
+@font-face {
+    font-family: "Karrik";
+    src: url(fonts/Karrik-Regular.otf);
 }
 
 html {
@@ -193,7 +194,7 @@ header {
 	float: left;
 	background: slateblue;
 	color: white;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	margin: 10px;
@@ -235,7 +236,7 @@ header {
 	width: 98%;
 	margin: 10px;
 	position: absolute;
-	top: 80px;
+	top: 60px;
 	left: 0;
 	box-sizing: border-box;
 }
@@ -247,7 +248,7 @@ header {
 	float: left;
 	background: white;
 	border-radius: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .sampletext {

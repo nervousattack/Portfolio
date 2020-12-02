@@ -25,7 +25,7 @@ body {
 	font-family: "BallPill", Helvetica, sans-serif;
 	text-align: left;
 	color: black;
-	background: url(images/ooze2.png), #ccfe02;
+	background: url(images/ooze2.png), slateblue;
 	  background-size: contain;
 	  background-repeat: no-repeat;
 	  background-position: right;
@@ -36,9 +36,9 @@ header {
 	width: 98%;
 	height: 40px;
 	float: left;
-	background: slateblue;
-	color: white;
-	position: fixed;
+	background: #ccfe02;
+	color: black;
+	position: absolute;
 	top: 0;
 	left: 0;
 	margin: 10px;
@@ -46,7 +46,7 @@ header {
 	border: 1px solid black;
 	z-index: 9999;
 	font-size: 1.1em;
-	border-radius: 20px;
+	border-radius: 15px;
 }
 
 .headerdiv {
@@ -72,7 +72,7 @@ header {
 	border: 1px solid black;
 	z-index: 9999;
 	font-size: 1em;
-	border-radius: 20px;
+	border-radius: 15px;
 	display: none;
 }
 
@@ -80,7 +80,7 @@ header {
 	width: 98%;
 	margin: 10px;
 	position: absolute;
-	top: 80px;
+	top: 60px;
 	left: 0;
 	box-sizing: border-box;
 }
@@ -91,8 +91,8 @@ header {
 	box-sizing: border-box;
 	float: left;
 	background: white;
-	border-radius: 20px;
-	margin-bottom: 40px;
+	border-radius: 15px;
+	margin-bottom: 20px;
 }
 
 .artwork {
@@ -121,12 +121,12 @@ header {
 	width: 100%;
 	border: 1px solid black;
 	box-sizing: border-box;
-	background: slateblue;
-	color: white;
+	background: #ccfe02;
+	color: black;
 	display: flex; 
 	align-items: stretch;
 	font-size: 1.1em;
-	border-radius: 20px;
+	border-radius: 15px;
 }
 
 .info33 {
@@ -241,54 +241,6 @@ a:hover{
 a:active {
 	text-decoration:none;
 	color: slateblue;
-}
-
-#information a:link {
-	text-decoration:none;
-	color: #ccfe02;
-}
-
-#information a:visited {
-	text-decoration:none;
-	color: #ccfe02;
-}
-
-#information a:hover{
-	text-decoration:none;
-	color: #ccfe02;
-	text-shadow: 0px 0px 10px #ccfe02;
-	-webkit-filter: blur(3px);
-    filter: blur(3px);
-    cursor: alias;
-}
-
-#information a:active {
-	text-decoration:none;
-	color: #ccfe02;
-}
-
-header a:link {
-	text-decoration:none;
-	color: #ccfe02;
-}
-
-header a:visited {
-	text-decoration:none;
-	color: #ccfe02;
-}
-
-header a:hover{
-	text-decoration:none;
-	color: #ccfe02;
-	text-shadow: 0px 0px 10px #ccfe02;
-	-webkit-filter: blur(3px);
-    filter: blur(3px);
-    cursor: alias;
-}
-
-header a:active {
-	text-decoration:none;
-	color: #ccfe02;
 }
 
 
