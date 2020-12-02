@@ -12,11 +12,6 @@
     src: url(fonts/BallPill-regular.otf);
 }
 
-@font-face {
-    font-family: "Karrik";
-    src: url(fonts/Karrik-Regular.otf);
-}
-
 html {
 	font-size: 100%;
 }
@@ -151,11 +146,11 @@ p {
 }
 
 .smalltype {
-	font-size: 16px;
+	font-size: 15px;
 	line-height: normal;
-	font-family: "Karrik", Arial, sans-serif;
-	letter-spacing: .02em;
+	font-family: 'Roboto', Arial, sans-serif;
 	line-height: 19px;
+	letter-spacing: .02em;
 }
     
 img {
