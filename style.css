@@ -170,14 +170,13 @@ img.shadow {
 
 
 video {
-	width: 100%;
-	height: auto;
 	border: 0;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	display: block;
 	line-height: 0;
 }
+
 iframe {
 	margin: 0 auto;
     padding: 0;
@@ -379,6 +378,11 @@ header a:active {
 	.mobileheader a:active {
 		text-decoration:none;
 		color: #ccfe02;
+	}
+
+	video {
+		width: 100%;
+		height: auto;
 	}
 
 }
