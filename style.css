@@ -12,126 +12,154 @@
     src: url(fonts/BallPill-regular.otf);
 }
 
+* {
+	box-sizing: border-box;
+}
+
 html {
 	font-size: 100%;
 }
 
 body {
-	font-family: "BallPill", Helvetica, sans-serif;
 	text-align: left;
 	color: black;
-	background: url(images/ooze2.png), #ccfe02;
-	  background-size: contain;
-	  background-repeat: no-repeat;
-	  background-position: right;
-	  background-attachment: fixed;
 }
+
+
+.container {
+	display: flex;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+}
+
 
 header {
-	width: 98%;
-	height: 40px;
-	float: left;
-	background: slateblue;
-	color: white;
-	position: absolute;
-	top: 0;
-	left: 0;
-	margin: 10px;
-	box-sizing: border-box;
-	border: 1px solid black;
-	z-index: 9999;
-	font-size: 1.1em;
-	border-radius: 15px;
+	width: 23%;
+	margin: 1%;
+	float: right;
+	font-size: 1.3em;
+	line-height: 1.25em;
+	font-family: "Simula", "Times New Roman", Times, Georgia, serif;
+	overflow: auto;
+	-ms-overflow-style: auto;
+  scrollbar-color: #FF6900 transparent;
+  scrollbar-width: thin;
 }
 
-.headerdiv {
-	width: 33.1%;
-	height: 100%; 
-	border-left: 1px solid black;
-	box-sizing: border-box;
-	float: left;
-	padding: 10px;
+header::-webkit-scrollbar-thumb {
+  background-color: #FF6900;
+}
+header::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+header::-webkit-scrollbar-corner {
+  background-color: #FF6900;
+}
+header::-webkit-scrollbar {
+  width: 10px;
 }
 
 .mobileheader {
-	width: 95%;
-	height: 40px;
-	float: left;
-	background: slateblue;
-	color: white;
-	position: fixed;
-	top: 0;
-	left: 0;
-	margin: 10px;
-	box-sizing: border-box;
-	border: 1px solid black;
-	z-index: 9999;
-	font-size: 1em;
-	border-radius: 15px;
-	display: none;
-}
-
-.container {
-	width: 98%;
-	margin: 10px;
-	position: absolute;
-	top: 60px;
-	left: 0;
-	box-sizing: border-box;
-}
-
-.project {
 	width: 100%;
-	border: 1px solid black;
-	box-sizing: border-box;
-	float: left;
-	background: white;
-	border-radius: 15px;
-	margin-bottom: 20px;
-}
-
-.artwork {
-	width: 66.3%;
 	height: auto;
-	border-right: 1px solid black;
+	margin: auto;
 	float: left;
-	padding: 10px;
-	box-sizing: border-box;
-}
-
-.description {
-	width: 33.7%;
-	height: 100%;
-	max-height: 600px;
-	float: left;
-	padding: 10px;
-	box-sizing: border-box;
-	font-size: 1.4em;
+	font-size: 1.3em;
+	line-height: 1.25em;
+	display: none;
 	font-family: "Simula", "Times New Roman", Times, Georgia, serif;
 }
 
-#information {	
-	margin-bottom: 10px;
-	float: left;
+.mobilefooter {
 	width: 100%;
-	border: 1px solid black;
-	box-sizing: border-box;
-	background: slateblue;
-	color: white;
-	display: flex; 
-	align-items: stretch;
-	font-size: 1.1em;
-	border-radius: 15px;
+	height: auto;
+	margin: auto;
+	float: left;
+	font-size: 1.3em;
+	line-height: 1.25em;
+	display: none;
+	font-family: "Simula", "Times New Roman", Times, Georgia, serif;
 }
 
-.info33 {
-	width: 33.1%;
+.projectscontainer {
+	width: 73%;
+	margin: 1%;
 	float: left;
-	border-right: 1px solid black;
-	padding: 10px 10px 0 10px;
-	box-sizing: border-box;
-	line-height: 1.4em;
-	margin: 0;
+	overflow: auto;
+	-ms-overflow-style: auto;
+  scrollbar-color: slateblue transparent;
+  scrollbar-width: thin;
+}
+
+.projectscontainer::-webkit-scrollbar-thumb {
+  background-color: slateblue;
+}
+.projectscontainer::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.projectscontainer::-webkit-scrollbar-corner {
+  background-color: slateblue;
+}
+.projectscontainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+.project {
+	width: 100%;
+	float: left;
+	margin-bottom: 5%;
+}
+
+.artwork {
+	width: 100%;
+	margin-bottom: 1%;
+	height: auto;
+	float: left;
+	background: black;
+}
+
+.description {
+	width: 100%;
+	float: left;
+	font-size: 1.3em;
+	line-height: 1.25em;
+	font-family: "Simula", "Times New Roman", Times, Georgia, serif;
+	display: flex;
+}
+
+.dtitle {
+	width: 30%;
+	float: left;
+	font-size: .8em;
+	text-transform: uppercase;
+	font-family: "BallPill", Helvetica, sans-serif;
+	margin-right: 1%;
+	border-left: 10px solid #FF6900;
+	border-top: 1px solid #FF6900;
+	padding-left: 1%;
+	padding-top: 0.5%;
+}
+
+.dstatement {
+	width: 30%;
+	float: left;
+	border-left: 10px solid #FF6900;
+	border-top: 1px solid #FF6900;
+	padding-left: 1%;
+	padding-top: 0.5%;
+}
+
+.dezslides {
+	width: 39%;
+	color: #FF6900;
+	float: left;
+	font-size: .52em;
+	text-transform: uppercase;
+	text-align: right;
+	font-family: 'Roboto Mono', Arial, sans-serif;
+	letter-spacing: .02em;
 }
 
 .slider {
@@ -145,24 +173,34 @@ p {
 	margin: 0 0 1em 0;
 }
 
+.bally {
+	font-family: "BallPill", Helvetica, sans-serif;
+	font-size: .8em;
+}
+
 .smalltype {
-	font-size: 15px;
-	line-height: normal;
-	font-family: 'Roboto', Arial, sans-serif;
+	font-size: .52em;
+	line-height: 15px !important;
+	font-family: 'Roboto Mono', Arial, sans-serif;
 	line-height: 19px;
-	letter-spacing: .02em;
+	letter-spacing: .01em;
+	text-transform: uppercase;
+}
+
+.cvcaps {
+	font-variant-caps: all-small-caps; 
+	letter-spacing: .03em;
+	font-weight: bold;
 }
     
 img {
 	max-width: 95%;
-	max-height: 580px;
+	margin: 0 auto;
 	padding: 0;
-	margin:0 auto;
 	display: block;
 	border-style: none;
 	text-decoration: none;
 }
-
 
 img.shadow {
 	border: 1px solid #ccc;
@@ -175,6 +213,8 @@ video {
 	padding: 0;
 	display: block;
 	line-height: 0;
+	max-width: 100%;
+	height: auto;
 }
 
 iframe {
@@ -186,7 +226,7 @@ iframe {
     display: block;
 }
 
-.wrapper         {width: 100%; max-width: 800px; height: 100%; margin: 0 auto; background: transparent;}
+.wrapper         {width: 100%; max-width: 100%; height: 100%; margin: 0 auto; background: transparent; padding: 1% 0}
 .h_iframe        {position: relative; padding-top: 56%;}
 .h_iframe iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 
@@ -237,77 +277,18 @@ a:active {
 	color: slateblue;
 }
 
-#information a:link {
-	text-decoration:none;
-	color: #ccfe02;
-}
-
-#information a:visited {
-	text-decoration:none;
-	color: #ccfe02;
-}
-
-#information a:hover{
-	text-decoration:none;
-	color: #ccfe02;
-	text-shadow: 0px 0px 10px #ccfe02;
-	-webkit-filter: blur(3px);
-    filter: blur(3px);
-    cursor: alias;
-}
-
-#information a:active {
-	text-decoration:none;
-	color: #ccfe02;
-}
-
-header a:link {
-	text-decoration:none;
-	color: #ccfe02;
-}
-
-header a:visited {
-	text-decoration:none;
-	color: #ccfe02;
-}
-
-header a:hover{
-	text-decoration:none;
-	color: #ccfe02;
-	text-shadow: 0px 0px 10px #ccfe02;
-	-webkit-filter: blur(3px);
-    filter: blur(3px);
-    cursor: alias;
-}
-
-header a:active {
-	text-decoration:none;
-	color: #ccfe02;
-}
 
 
 /* RESPONSIVE ----------------------------- */
-@media screen and (max-width:800px){
-	header {
-		font-size: 1em;
+@media screen and (max-width:900px){
+	
+	.container {
+		display: block;
+	  height: auto;
+	  width: 98%;
+	  margin: 1%;
+	  overflow: auto;
 	}
-
-	#information {
-		font-size: .9em;
-	}
-
-	.description {
-		font-size: 1.1em;
-	}
-
-	.smalltype {
-		font-size: 14px;
-		line-height: 18px;
-	}
-}
-
-
-@media screen and (max-width:670px){
 
 	header {
 		display: none;
@@ -317,72 +298,62 @@ header a:active {
 		display: block;
 	}
 
-	.headerdiv {
-		width: 50%;
-		height: 100%;
+	.mobilefooter {
+		display: block;
 	}
 
-	.container {
-		width: 95%;
-		top: 70px;
+	.projectscontainer {
+		width: 100%;
+		margin: 0;
 	}
 
 	.project {
-		margin-bottom:30px;
+		width: 100%;
 	}
 
 	.artwork {
 		width: 100%;
-		border-right: 0;
 	}
 
 	.description {
 		width: 100%;
-		border-top: 1px solid black;
+		display: block;
 	}
 
-	#information {	
-		display: block; 
-	}
-
-	.info33 {
+	.dtitle {
 		width: 100%;
-		float: left;
-		border-right: 0;
+		margin-bottom: 1%;
 	}
 
-	.smalltype {
-		font-size: 15px;
-		line-height: 19px;
+	.dstatement {
+		width: 100%;
 	}
 
-	.mobileheader a:link {
-		text-decoration:none;
-		color: #ccfe02;
-	}
-
-	.mobileheader a:visited {
-		text-decoration:none;
-		color: #ccfe02;
-	}
-
-	.mobileheader a:hover{
-		text-decoration:none;
-		color: #ccfe02;
-		text-shadow: 0px 0px 10px #ccfe02;
-		-webkit-filter: blur(3px);
-	    filter: blur(3px);
-	    cursor: alias;
-	}
-
-	.mobileheader a:active {
-		text-decoration:none;
-		color: #ccfe02;
+	.dezslides {
+		width: 100%;
+		text-align: left;
+		padding-left: 15px;
 	}
 
 	video {
-		width: 100%;
-		height: auto;
+		max-height: 50vh;
+	}
+
+}
+
+
+@media screen and (max-width:670px){
+
+	.mobileheader {
+		font-size: 1.1em;
+	}
+
+	.mobilefooter {
+		font-size: 1.1em;
+	}
+
+	.description {
+		font-size: 1.1em;
 	}
 
 }
