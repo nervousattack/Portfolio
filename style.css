@@ -43,18 +43,18 @@ header {
 	font-family: "Simula", "Times New Roman", Times, Georgia, serif;
 	overflow: auto;
 	-ms-overflow-style: auto;
-  scrollbar-color: #FF6900 transparent;
+  scrollbar-color: #92f70e transparent;
   scrollbar-width: thin;
 }
 
 header::-webkit-scrollbar-thumb {
-  background-color: #FF6900;
+  background-color: #92f70e;
 }
 header::-webkit-scrollbar-track {
   background-color: transparent;
 }
 header::-webkit-scrollbar-corner {
-  background-color: #FF6900;
+  background-color: #92f70e;
 }
 header::-webkit-scrollbar {
   width: 10px;
@@ -136,8 +136,8 @@ header::-webkit-scrollbar {
 	text-transform: uppercase;
 	font-family: "BallPill", Helvetica, sans-serif;
 	margin-right: 1%;
-	border-left: 10px solid #FF6900;
-	border-top: 1px solid #FF6900;
+	border-left: 10px solid #92f70e;
+	border-top: 1px solid #92f70e;
 	padding-left: 1%;
 	padding-top: 0.5%;
 }
@@ -145,15 +145,15 @@ header::-webkit-scrollbar {
 .dstatement {
 	width: 30%;
 	float: left;
-	border-left: 10px solid #FF6900;
-	border-top: 1px solid #FF6900;
+	border-left: 10px solid #92f70e;
+	border-top: 1px solid #92f70e;
 	padding-left: 1%;
 	padding-top: 0.5%;
 }
 
 .dezslides {
 	width: 39%;
-	color: #FF6900;
+	color: #92f70e;
 	float: left;
 	font-size: .52em;
 	text-transform: uppercase;
